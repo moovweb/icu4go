@@ -1,6 +1,6 @@
 package icu4go
 
-// #cgo pkg-config: icu-uc icu-i18n icu-io icu-le icu-lx
+// #cgo pkg-config: icu-i18n
 //
 // #include "helper.h"
 import "C"
