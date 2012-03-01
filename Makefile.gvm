@@ -1,0 +1,9 @@
+all: install
+build:
+	make
+clean:
+	make clean
+install: build
+	make install
+test:
+	make test
