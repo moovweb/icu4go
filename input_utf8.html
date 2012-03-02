@@ -1,0 +1,1951 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><script type="text/javascript">
+   var _U = "undefined";
+   var g_HttpRelativeWebRoot = "/acs/";
+   var SSContributor = false;
+   var SSForceContributor = false;
+   var SSHideContributorUI = false;
+   var ssUrlPrefix = "/CancerOrg/";
+   var ssUrlType = "";
+   
+   var g_navNode_Path = new Array();
+       g_navNode_Path[0] = '0';
+       g_navNode_Path[1] = '100041';
+       g_navNode_Path[2] = '100042';
+       g_navNode_Path[3] = '208';
+   var g_ssSourceNodeId = "208";
+   var g_ssSourceSiteId = "CancerOrg";
+   var g_strLanguageId = "en";
+</script>
+	<script type="text/javascript" src="/acs/resources/wcm/sitestudio/wcm.toggle.js"></script>
+	<script type="text/javascript" src="/acs/resources/sitestudio/ssajax/ssajax.js"></script>
+
+	
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<!-- Facebook Specific Meta data properties -->
+	<meta property="og:title" content="I'm Supporting the Fight Against Cancer" />
+	<meta property="og:description" content="I've just made a donation to the American Cancer Society.  Find out how you can get involved and save lives from cancer too!" />
+	<meta property="og:url" content="https://www.cancer.org/involved/donate/donateonlinenow/index"> 
+	<meta property="og:image" content="https://www.cancer.org/acs/groups/content/@marketing/documents/image/acspc-031543.jpg">
+	<meta property="og:image" content="https://www.cancer.org/acs/groups/content/@marketing/documents/image/acspc-031544.jpg">
+	<meta property="og:type" content="non_profit"> 
+	<meta property="og:site_name" content="American Cancer Society"/>
+	<!-- End Facebook Specific Meta data properties -->
+
+	<meta name="keywords" content="donate,fight against cancer,american cancer society,donation,gift,cancer research,donating,honor loved one,charitable contribution,memorial">
+	<meta name="description" content="Donate to the American Cancer Society and join the fight against cancer. Your charitable contribution supports our mission to save lives and eliminate suffering.">
+
+
+
+<!--c="has doc info"-->
+		<title id="articleTitle">
+				Charitable Contribution to the American Cancer Society | Donate
+			 
+		</title>
+		<meta name="title" content="Charitable Contribution to the American Cancer Society | Donate" />
+		<meta name="keywords" content="donate,fight against cancer,american cancer society,make a donation,breast,prostate,colorectal,lung,cancer research,memorial gift,honor loved one" />
+		<meta name="description" content="Donate to the American Cancer Society and join the fight against cancer. Your charitable contribution supports our mission to save lives and eliminate suffering." />
+	
+
+
+	<script id="ssInfo" type="text/xml" warning="DO NOT MODIFY!">
+		<ssinfo >
+			<fragmentinstance  id="AcsJavascript" fragmentid="ACS_JAVASCRIPT" library="server:ACS_JAVASCRIPT">
+			</fragmentinstance>
+			<fragmentinstance  id="fragHeader" fragmentid="DOHeader" library="server:DOHEADER">
+			</fragmentinstance>
+			<fragmentinstance  id="fragDonationForm" fragmentid="dotNetPL" library="server:AARONFRAGLIB">
+			</fragmentinstance>
+			<fragmentinstance  id="fragRightRail" fragmentid="dotNetPL" library="server:AARONFRAGLIB">
+			</fragmentinstance>
+			<fragmentinstance  id="fragHeader" fragmentid="dotNetPL" library="server:AARONFRAGLIB">
+			</fragmentinstance>
+			<fragmentinstance  id="fragFooter" fragmentid="dotNetPL" library="server:AARONFRAGLIB">
+			</fragmentinstance>
+			<region  id="region1" name="regionLeft" flags="111000010011" metadata="" dccommand="ssIncInlineDynamicConversion(SS_DATAFILE)">
+				<switchregioncontent  createnewxml="false" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false">
+					<choosemanagedquerytext  corecontentonly="FALSE">
+						<![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]>
+					</choosemanagedquerytext>
+				</switchregioncontent>
+			</region>
+		</ssinfo>
+	</script>
+
+
+<!-- SS_BEGIN_SNIPPET(AcsJavascript,head)-->
+				<script src="/acs/fragments/acs_javascript/jquery-1.6.4.min.js"></script>
+
+
+<script src="/acs/fragments/acs_javascript/jquery-plugins.js" type="text/javascript"></script>
+<script src="/acs/fragments/acs_javascript/mbox.js" language="JavaScript1.2"></script>
+<script src="/acs/fragments/acs_javascript/jquery.jscrollpane.min.js" type="text/javascript"></script>
+<!--[if lte IE 6]><script src="/acs/fragments/acs_javascript/ie6.js" type="text/javascript"></script><![endif]-->
+
+<script type="text/javascript"> 
+	//Configure google analytics and track a page view	
+	var _gaq = _gaq || [];
+	if(document.domain.toLowerCase()=='m.cancer.org')
+	{
+		//m.cancer.org
+		_gaq.push(
+			['_setAccount', 'UA-144783-102']
+			,['_trackPageview'] 
+		);
+	} else {
+		//cancer.org
+		_gaq.push(
+			['_setAccount', 'UA-144783-68']
+			,['_trackPageview'] 
+		);
+	}
+
+	
+	//Register Analytics
+	(function() {
+		var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+
+<script type="text/javascript"> 
+	$(document).ready(function(){
+		//track footer links
+		$(".footer-column ul li a").click(function () {
+			_gaq.push(['_trackEvent', 'footer', $(this).html(), 'from: ' + $(this).attr("href")]);
+		});
+	});
+ </script>
+ 
+<script type="text/javascript"> 
+	var myDomain = myDomain || "";	
+	var s_account = "acsprod";
+	$(document).ready(function(){
+		$("#myDomain").val(s_account);
+	});
+</script>
+<!-- SiteCatalyst code version: H.21.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="/acs/fragments/acs_javascript/s_code.js"></script>       
+<script language="JavaScript" type="text/javascript">
+<!--s.pageName=location.pathname;
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//-->
+</script><noscript><a href="http://www.omniture.com" title="Web Analytics"><span style="text-indent:-10000px;position:absolute;">Site Catalyst</span><img
+src="http://americancancersocietyinc.112.2o7.net/b/ss/acsqa/1/H.21--NS/0"
+height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->
+<!-- BEGIN: OnlineOpinion v4.1.7 
+* The following code is Copyright 1998-2010 Opinionlab, Inc.
+* All rights reserved. Unauthorized use is prohibited.
+* This product and other products of OpinionLab, Inc. are protected by U.S. Patent No. US 6606581, 6421724, 6785717 B1 and other patents pending.
+* http://www.opinionlab.com
+-->
+<!-- MAIN OL ENGINE; NECESSARY FOR ALL IMPLEMENTATIONS -->
+<script language="javascript" type="text/javascript" charset="windows-1252" src="/acs/fragments/acs_javascript/oo_engine_c.js"></script>
+<!-- FEEDBACK PLUG-IN ; INLINE -->
+<script language="javascript" type="text/javascript" charset="windows-1252" src="/acs/fragments/acs_javascript/oo_conf_en-US_inline.js"></script>
+<!-- INLINE CALL - onclick="oOobj2.onClick()" -->
+<!-- END: OnlineOpinion v4.1.7 -->	
+<!--EXAMPLE INLINE LINK CALLING INLINE CONF FILE-->
+<!--//<a href="javascript:void(0);" onClick="oOobj2.OnClick()"><img src="/acs/fragments/acs_javascript/sm_545454_oo.gif" border="0" title="Feedback" style="margin-right:5px;">Feedback</a> //-->
+
+
+  
+			
+<!-- SS_END_SNIPPET(AcsJavascript,head)-->
+
+<!-- SS_BEGIN_SNIPPET(fragHeader,head)-->
+<script type="text/javascript" src="/acs/fragments/doheader/DO_head.js"></script>
+<link rel="stylesheet" type="text/css" media="screen, projection" href="/acs/fragments/doheader/acs-donation.css" />
+<link rel="stylesheet" type="text/css" media="screen, projection" href="/acs/fragments/acs_css/acs-global.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/acs/fragments/doheader/print.css" />
+			
+<!-- SS_END_SNIPPET(fragHeader,head)-->
+
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="/acs/fragments/acs_css/donations-footer.css" />
+
+                <!-- Donation Styles-->
+		        <style type="text/css">
+		            #page-wrapper .formbox .left-margin55 
+		            {
+	                    float: left;
+	                    width: 584px;
+	                    margin-left: 55px;
+		            }
+        		    .sectionHeader 
+        		    {
+        		    	font-size:14px; font-weight:700; line-height:22px; margin-top: 4px; margin-bottom: 20px;
+        		    }
+        		    .stepHeader { color:#545454; font-size:16px; font-weight:700; line-height:125%; margin-bottom: 13px;}
+                    .donatefield-1 { float: left; margin-right: 20px; margin-bottom: 3px; width: 213px; }
+                    .donatefield-1 input { width: 211px; }
+
+                    .donatefield-2 { float: left; margin-right: 20px; margin-bottom: 3px; width: 117px; }
+                    .donatefield-2 input { width: 115px; }
+
+                    .donatefield-3 { float: left; margin-bottom: 3px; width: 583px; }
+                    .donatefield-3 input { width: 581px; }
+
+                    .donatefield-4 { float: left; margin-right: 20px; margin-bottom: 3px; width: 282px; }
+                    .donatefield-4 input { width: 280px; }
+
+
+                    .donatefield-5 { float: left; margin-right: 20px; margin-bottom: 3px; width: 171px; }
+                    .donatefield-5 input { width: 129px; }
+                    
+                    .donatefield-6 { float: left; margin-bottom: 3px; width: 300px; }
+                    
+                    .donatefield-7 { float: left; margin-bottom: 3px; width: 194px; }
+                    
+                    .donatefield-8 { float: left; margin-bottom: 3px; width: 450px; }
+                    
+                    .donatefield-9 { float: left; margin-left: 20px; margin-bottom: 3px; width: 523px; }
+
+                    .donatefield-1 input.checkbox,
+                    .donatefield-2 input.checkbox,
+                    .donatefield-3 input.checkbox,
+                    .donatefield-4 input.checkbox,
+                    .donatefield-5 input.checkbox {
+	                    width: 12px;
+	                    margin-right: 3px;
+                    }
+
+                    .donatefield-1 label,
+                    .donatefield-2 label,
+                    .donatefield-3 label,
+                    .donatefield-4 label,
+                    .donatefield-5 label {
+	                    display: block;
+	                    margin-bottom: 5px;
+                    }
+        		    
+		            .donatefield-4 select { width: 280px; }
+		            .donate-radio { float: left; margin-bottom: 3px; width: 583px; }
+                    .donate-radio span { width: 581px; }
+                    .donateAmount-radio { float: left; margin-bottom: 10px; width: 583px; }
+                    .donateAmount-radio input { width: 12px; margin-right: 5px; margin-left: 20px; }
+                    .donateAmount-radio input.donateAmount-text { width: 200px; }
+                    
+                    .donate-radio input
+                    {
+            	        width: 12px;
+	                    margin-right: 5px;
+                    }
+                    
+                    /*Review Page Styles*/
+                    #page-wrapper .donateverify-formbox {
+	                    float: left;
+	                    width: 682px;
+	                    margin-right: 20px;
+	                    background: #efefef;
+                    }
+                    #page-wrapper .donateverify-formbox .donateverify-left {
+	                    float: left;
+	                    width: 300px;
+	                    height: 160px;
+	                    padding: 20px;
+	                    border-right: 1px solid white;
+                    }
+                                            
+                    #page-wrapper .donateverify-formbox .donateverify-right {
+	                    float: left;
+	                    width: 301px;
+	                    height: 160px;
+	                    padding: 20px;
+                    }
+                    
+                    #page-wrapper .donateverify-formbox h3 {
+	                    margin-top: 4px;
+	                    margin-bottom: 20px;
+                    }
+                    #page-wrapper .donateverify-formbox h3 .donateverify-btnedit,  #page-wrapper .formbox h3 .donateverify-btnedit{
+                        color: #3067b3;
+                        font-size: 12px;
+                    }
+		        </style>
+            </head>
+ 
+<body class="donation-acs-theme">
+<!-- SS_BEGIN_SNIPPET(fragHeader,body)-->
+
+				
+
+				
+			
+<!-- SS_END_SNIPPET(fragHeader,body)-->
+
+
+<div id="wrapper" class="donation-form">
+	<!-- BEGIN: DONATION FORM HEADER -->
+	<div id="header">
+		<div id="logo"><a href="http://www.cancer.org/index">American Cancer Society - The Official Sponsor of Birthdays.&trade;</a></div>
+		<div id="btn-header-back"><a href="http://www.cancer.org/index"><span>&laquo;</span> Back to cancer.org</a></div>
+	</div> 
+	<!-- END: DONATION FORM HEADER -->
+	
+<!-- SS_BEGIN_OPENREGIONMARKER(region1)-->
+
+
+<!-- SS_END_OPENREGIONMARKER(region1)-->
+
+<form name="donationForm" method="post" action="/Involved/Donate/DonateOnlineNow/index.aspx" id="donationForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyNTEwNDk0NTYPZBYCAgMQZGQWAgIBD2QWBgIDD2QWAgIBD2QWAmYPDxYOHhBIZWFkaW5nVGV4dFN0ZXAxBRVEb25hdGUgQW5kIFNhdmUgTGl2ZXMeEEhlYWRpbmdUZXh0U3RlcDIFEkRvbmF0aW9uIENvbmZpcm1lZB4QSGVhZGluZ1RleHRTdGVwMwULU2VuZCBBIENhcmQeEEhlYWRpbmdUZXh0U3RlcDQFF1lvdXIgQ2FyZCBIYXMgQmVlbiBTZW50HhNTdWJoZWFkaW5nVGV4dFN0ZXAyBT9UaGFuayB5b3UgZm9yIHlvdXIgZ2VuZXJvdXMgZ2lmdCB0byB0aGUgQW1lcmljYW4gQ2FuY2VyIFNvY2lldHkeE1N1YmhlYWRpbmdUZXh0U3RlcDMFMlNlbmQgYSBjYXJkIHRvIGxldCBvdGhlcnMga25vdyBhYm91dCB5b3VyIGRvbmF0aW9uHhNTdWJoZWFkaW5nVGV4dFN0ZXA0BTVUaGFuayB5b3UgZm9yIGxldHRpbmcgb3RoZXJzIGtub3cgYWJvdXQgeW91ciBkb25hdGlvbmQWCAIBDw8WAh4ISW1hZ2VVcmwFQy9hY3MvZ3JvdXBzL2NvbnRlbnQvZG9jdW1lbnRzL2ltYWdlL0RPTi1ETy1ERUZBVUxULUhFQURFUi1JTUFHRS5qcGdkZAIDDw8WAh4EVGV4dAUVRG9uYXRlIEFuZCBTYXZlIExpdmVzZGQCBQ8PFgIfCAVISm9pbiB0aGUgZmlnaHQgYWdhaW5zdCBjYW5jZXIgYnkgZG9uYXRpbmcgdG8gdGhlIEFtZXJpY2FuIENhbmNlciBTb2NpZXR5ZGQCBw8PFgIfCGVkZAIFD2QWAmYPZBYKZg9kFhBmDxYEHwgFmwE8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+cy5ldmVudHM9ImV2ZW50MzAiOyBzLmVWYXIyMj0iZG9uYXRpb24iOyQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCl7IHBhZ2VUcmFja2VyLl90cmFja1BhZ2V2aWV3KCIvbWFrZWFnaWZ0Iik7IH0pOzwvc2NyaXB0Ph4HVmlzaWJsZWdkAgkPZBYEZg8QDxYCHgdDaGVja2VkZ2RkZGQCAg9kFgJmDxAPFgIeC18hRGF0YUJvdW5kZ2QPFgVmAgECAgIDAgQWBRAFAyQ1MAUCNTBnEAUDJDc1BQI3NWcQBQQkMTAwBQMxMDBnEAUEJDI1MAUDMjUwZxAFG090aGVyICgkNSBNaW5pbXVtIERvbmF0aW9uKQUbT3RoZXIgKCQ1IE1pbmltdW0gRG9uYXRpb24pZxYAZAIKD2QWBGYPEA8WAh8KaGRkZGQCAg9kFgICAQ8QDxYCHwtnZA8WBWYCAQICAgMCBBYFEAUDJDEwBQIxMGcQBQMkMTUFAjE1ZxAFAyQyNQUCMjVnEAUDJDUwBQI1MGcQBRtPdGhlciAoJDUgTWluaW11bSBEb25hdGlvbikFG090aGVyICgkNSBNaW5pbXVtIERvbmF0aW9uKWcWAGQCDA9kFgYCBw9kFgJmDxAPFgIfCmdkZGRkAgkPZBYCZg8QDxYCHwpoZGRkZAILD2QWAmYPEA8WAh8KaGRkZGQCDQ9kFgYCCQ8PZBYCHghvbmNoYW5nZQUkamF2YXNjcmlwdDpTZXRIb25vckRlZmF1bHRNZXNzYWdlKCk7ZAINDxBkZBYAZAIQD2QWBAIFD2QWBAIRDxBkZBYBZmQCGw8QZGQWAWZkAgcPZBYCAgEPDxYCHgtQb3N0QmFja1VybAUwL0ludm9sdmVkL0RvbmF0ZS9Eb25hdGVPbmxpbmVOb3cvR2lmdENhcmRQcmV2aWV3ZGQCDg9kFg4CCg8PZBYCHwwFJ2phdmFzY3JpcHQ6U2V0TWVtb3JpYWxEZWZhdWx0TWVzc2FnZSgpO2QCDg8QZGQWAGQCEQ9kFgQCBQ9kFgQCEQ8QZGQWAWZkAhsPEGRkFgFmZAIHD2QWAgIBDw8WAh8NBTAvSW52b2x2ZWQvRG9uYXRlL0RvbmF0ZU9ubGluZU5vdy9HaWZ0Q2FyZFByZXZpZXdkZAISD2QWBAIFD2QWBAIRDxBkZBYBZmQCGw8QZGQWAWZkAgcPZBYCAgEPDxYCHw0FMC9JbnZvbHZlZC9Eb25hdGUvRG9uYXRlT25saW5lTm93L0dpZnRDYXJkUHJldmlld2RkAhMPZBYEAgUPZBYEAhEPEGRkFgFmZAIbDxBkZBYBZmQCBw9kFgICAQ8PFgIfDQUwL0ludm9sdmVkL0RvbmF0ZS9Eb25hdGVPbmxpbmVOb3cvR2lmdENhcmRQcmV2aWV3ZGQCFA9kFgQCBQ9kFgQCEQ8QZGQWAWZkAhsPEGRkFgFmZAIHD2QWAgIBDw8WAh8NBTAvSW52b2x2ZWQvRG9uYXRlL0RvbmF0ZU9ubGluZU5vdy9HaWZ0Q2FyZFByZXZpZXdkZAIVD2QWBAIFD2QWBAIRDxBkZBYBZmQCGw8QZGQWAWZkAgcPZBYCAgEPDxYCHw0FMC9JbnZvbHZlZC9Eb25hdGUvRG9uYXRlT25saW5lTm93L0dpZnRDYXJkUHJldmlld2RkAg8PZBYCAgQPZBYCAgMPZBYCAgEPEGRkFgBkAhAPFgIeBVZhbHVlZWQCAQ9kFggCBg9kFhACAQ8PFgIfCGRkZAIGDw8WAh8IZGRkAgkPDxYCHwhkZGQCDA8PFgIfCGRkZAIODw8WAh8IZGRkAhEPEA8WAh8LZ2QPFkUCAQICAgMCBAIFAgYCBwIIAgkCCgILAgwCDQIOAg8CEAIRAhICEwIUAhUCFgIXAhgCGQIaAhsCHAIdAh4CHwIgAiECIgIjAiQCJQImAicCKAIpAioCKwIsAi0CLgIvAjACMQIyAjMCNAI1AjYCNwI4AjkCOgI7AjwCPQI+Aj8CQAJBAkICQwJEAkUWRRAFB0FsYWJhbWEFATFnEAUGQWxhc2thBQEyZxAFB0FyaXpvbmEFATNnEAUIQXJrYW5zYXMFATRnEAUKQ2FsaWZvcm5pYQUBNWcQBQhDb2xvcmFkbwUBNmcQBQtDb25uZWN0aWN1dAUBN2cQBQhEZWxhd2FyZQUBOGcQBRREaXN0cmljdCBvZiBDb2x1bWJpYQUBOWcQBQdGbG9yaWRhBQIxMGcQBQdHZW9yZ2lhBQIxMWcQBQRHdWFtBQIxMmcQBQZIYXdhaWkFAjEzZxAFBUlkYWhvBQIxNGcQBQhJbGxpbm9pcwUCMTVnEAUHSW5kaWFuYQUCMTZnEAUESW93YQUCMTdnEAUGS2Fuc2FzBQIxOGcQBQhLZW50dWNreQUCMTlnEAUJTG91aXNpYW5hBQIyMGcQBQVNYWluZQUCMjFnEAUITWFyeWxhbmQFAjIyZxAFDU1hc3NhY2h1c2V0dHMFAjIzZxAFCE1pY2hpZ2FuBQIyNGcQBQlNaW5uZXNvdGEFAjI1ZxAFC01pc3Npc3NpcHBpBQIyNmcQBQhNaXNzb3VyaQUCMjdnEAUHTW9udGFuYQUCMjhnEAUITmVicmFza2EFAjI5ZxAFBk5ldmFkYQUCMzBnEAUNTmV3IEhhbXBzaGlyZQUCMzFnEAUKTmV3IEplcnNleQUCMzJnEAUKTmV3IE1leGljbwUCMzNnEAUITmV3IFlvcmsFAjM0ZxAFDk5vcnRoIENhcm9saW5hBQIzNWcQBQxOb3J0aCBEYWtvdGEFAjM2ZxAFBE9oaW8FAjM3ZxAFCE9rbGFob21hBQIzOGcQBQZPcmVnb24FAjM5ZxAFDFBlbm5zeWx2YW5pYQUCNDBnEAULUHVlcnRvIFJpY28FAjQxZxAFDFJob2RlIElzbGFuZAUCNDJnEAUOU291dGggQ2Fyb2xpbmEFAjQzZxAFDFNvdXRoIERha290YQUCNDRnEAUJVGVubmVzc2VlBQI0NWcQBQVUZXhhcwUCNDZnEAUEVXRhaAUCNDdnEAUHVmVybW9udAUCNDhnEAUOVmlyZ2luIElzbGFuZHMFAjQ5ZxAFCFZpcmdpbmlhBQI1MGcQBQpXYXNoaW5ndG9uBQI1MWcQBQ1XZXN0IFZpcmdpbmlhBQI1MmcQBQlXaXNjb25zaW4FAjUzZxAFB1d5b21pbmcFAjU0ZxAFD0FybWVkIEZvcmNlcyBBQQUCNTVnEAUPQXJtZWQgRm9yY2VzIEFFBQI1NmcQBQ9Bcm1lZCBGb3JjZXMgQVAFAjU3ZxAFB0FsYmVydGEFAjU4ZxAFEEJyaXRpc2ggQ29sdW1iaWEFAjU5ZxAFCE1hbml0b2JhBQI2MGcQBQ1OZXcgQnJ1bnN3aWNrBQI2MWcQBRlOZXdmb3VuZGxhbmQgYW5kIExhYnJhZG9yBQI2MmcQBRVOb3J0aHdlc3QgVGVycml0b3JpZXMFAjYzZxAFC05vdmEgU2NvdGlhBQI2NGcQBQdPbnRhcmlvBQI2NWcQBRRQcmluY2UgRWR3YXJkIElzbGFuZAUCNjZnEAUGUXVlYmVjBQI2N2cQBQxTYXNrYXRjaGV3YW4FAjY4ZxAFBVl1a29uBQI2OWcWAWZkAhsPEA8WAh8LZ2QPFocBAgECAgIDAgQCBQIGAgcCCAIJAgoCCwIMAg0CDgIPAhACEQISAhMCFAIVAhYCFwIYAhkCGgIbAhwCHQIeAh8CIAIhAiICIwIkAiUCJgInAigCKQIqAisCLAItAi4CLwIwAjECMgIzAjQCNQI2AjcCOAI5AjoCOwI8Aj0CPgI/AkACQQJCAkMCRAJFAkYCRwJIAkkCSgJLAkwCTQJOAk8CUAJRAlICUwJUAlUCVgJXAlgCWQJaAlsCXAJdAl4CXwJgAmECYgJjAmQCZQJmAmcCaAJpAmoCawJsAm0CbgJvAnACcQJyAnMCdAJ1AnYCdwJ4AnkCegJ7AnwCfQJ+An8CgAECgQECggECgwEChAEChQEChgEChwEWhwEQBQNVU0EFAzEzMWcQBQdBbGJhbmlhBQExZxAFB0FsZ2VyaWEFATJnEAUOQW1lcmljYW4gU2Ftb2EFATNnEAUIQW5ndWxsaWEFAzEwMGcQBQdBbnRpZ3VhBQMxMDFnEAUJQXJnZW50aW5hBQE0ZxAFB0FybWVuaWEFATVnEAUFQXJ1YmEFATZnEAUJQXVzdHJhbGlhBQE3ZxAFB0F1c3RyaWEFAThnEAUHQmFoYW1hcwUDMTAyZxAFB0JhaHJhaW4FATlnEAUKQmFuZ2xhZGVzaAUCMTBnEAUIQmFyYmFkb3MFAzEwM2cQBQdCYXJidWRhBQMxMDRnEAUHQmVsZ2l1bQUCMTFnEAUGQmVsaXplBQIxMmcQBQdCZXJtdWRhBQMxMDZnEAUHQm9saXZpYQUCMTNnEAUGQm9zbmlhBQIxNGcQBQZCcmF6aWwFAjE1ZxAFFkJyaXRpc2ggVmlyZ2luIElzbGFuZHMFAzEwNWcQBQhCdWxnYXJpYQUCMTZnEAUGQ2FuYWRhBQIxN2cQBQ5DYXltYW4gSXNsYW5kcwUDMTA3ZxAFBUNoaWxlBQIxOGcQBQVDaGluYQUCMTlnEAUIQ29sb21iaWEFAjIwZxAFCkNvc3RhIFJpY2EFAjIxZxAFB0Nyb2F0aWEFAjIyZxAFBkN5cHJ1cwUCMjNnEAUOQ3plY2ggUmVwdWJsaWMFAjI0ZxAFHERlbW9jcmF0aWMgUmVwdWJsaWMgb2YgQ29uZ28FAzEzNWcQBQdEZW5tYXJrBQIyNWcQBRJEb21pbmljYW4gUmVwdWJsaWMFAzEwOGcQBQlEb21taW5pY2EFAzEwOWcQBQdFY3VhZG9yBQIyNmcQBQVFZ3lwdAUCMjdnEAULRWwgU2FsdmFkb3IFAjI4ZxAFB0VzdG9uaWEFAjI5ZxAFCEV0aGlvcGlhBQIzMGcQBQRGaWppBQIzMWcQBQdGaW5sYW5kBQIzMmcQBQZGcmFuY2UFAjMzZxAFF0ZyZW5jaCBQb2x5bmVzaWEgVGFoaXRpBQIzNGcQBQdHZW9yZ2lhBQIzNWcQBQdHZXJtYW55BQIzNmcQBQZHcmVlY2UFAjM3ZxAFB0dyZW5hZGEFAzExMGcQBQlHdWF0ZW1hbGEFAjM4ZxAFBkd1eWFuYQUCMzlnEAUFSGFpdGkFAjQwZxAFC0hlcnplZ292aW5hBQI0MWcQBQhIb25kdXJhcwUCNDJnEAUJSG9uZyBLb25nBQI0M2cQBQdIdW5nYXJ5BQI0NGcQBQdJY2VsYW5kBQI0NWcQBQVJbmRpYQUCNDZnEAUJSW5kb25lc2lhBQI0N2cQBQRJcmFuBQI0OGcQBQRJcmFxBQI0OWcQBQdJcmVsYW5kBQI1MGcQBQZJc3JhZWwFAjUxZxAFBUl0YWx5BQI1MmcQBRdJdm9yeSBDb2FzdCBDb3RlIGR2b2lyZQUCNTNnEAUHSmFtYWljYQUDMTEyZxAFBUphcGFuBQI1NGcQBQZKb3JkYW4FAjU1ZxAFBUtlbnlhBQI1NmcQBQxLb3JlYSwgTm9ydGgFAjU3ZxAFDEtvcmVhLCBTb3V0aAUDMTM4ZxAFBkt1d2FpdAUCNThnEAUGTGF0dmlhBQI1OWcQBQdMaWJlcmlhBQI2MGcQBRFMaWJ5YW4gSmFtYWhpcml5YQUCNjFnEAUNTGllY2h0ZW5zdGVpbgUCNjJnEAUJTGl0aHVhbmlhBQI2M2cQBQpMdXhlbWJvdXJnBQI2NGcQBQhNYWxheXNpYQUCNjVnEAUITWFsZGl2ZXMFAjY2ZxAFBU1hbHRhBQI2N2cQBQlNYXVyaXRpdXMFAjY4ZxAFBk1leGljbwUCNjlnEAUKTW9udHNlcnJhdAUDMTEzZxAFB01vcm9jY28FAjcwZxAFC05ldGhlcmxhbmRzBQI3MmcQBRROZXRoZXJsYW5kcyBBbnRpbGxlcwUCNzFnEAULTmV3IFplYWxhbmQFAjczZxAFCU5pY2FyYWd1YQUCNzRnEAUHTmlnZXJpYQUCNzVnEAUVTm9ydGggTWFyaWFuYSBJc2xhbmRzBQMxMTRnEAUGTm9yd2F5BQI3NmcQBQhQYWtpc3RhbgUCNzdnEAUGUGFuYW1hBQI3OGcQBQhQYXJhZ3VheQUCNzlnEAUEUGVydQUCODBnEAULUGhpbGlwcGluZXMFAjgxZxAFBlBvbGFuZAUCODJnEAUIUG9ydHVnYWwFAjgzZxAFBVFhdGFyBQI4NGcQBQdSb21hbmlhBQI4NWcQBQZSdXNzaWEFAjg2ZxAFDFNhdWRpIEFyYWJpYQUCODdnEAUHU2VuZWdhbAUCODhnEAUJU2luZ2Fwb3JlBQI4OWcQBQhTbG92YWtpYQUCOTBnEAUIU2xvdmVuaWEFAjkxZxAFDFNvdXRoIEFmcmljYQUCOTJnEAUFU3BhaW4FAjkzZxAFCVNyaSBMYW5rYQUCOTRnEAUTU3QuIEtpdHRzIGFuZCBOZXZpcwUDMTE2ZxAFCVN0LiBMdWNpYQUDMTE3ZxAFC1N0LiBWaW5jZW50BQMxMThnEAUHU3VyaW5hbQUCOTVnEAUGU3dlZGVuBQI5NmcQBQtTd2l0emVybGFuZAUCOTdnEAUTVGFiYWdvIGFuZCBUcmluaWRhZAUDMTE5ZxAFBlRhaXdhbgUCOThnEAUIVGFuemFuaWEFAjk5ZxAFCFRoYWlsYW5kBQMxMjBnEAUOVGhlIEdyZW5hZGluZXMFAzEyMWcQBQdUdW5pc2lhBQMxMjJnEAUGVHVya2V5BQMxMjNnEAUYVHVya3MgYW5kIENhbGNvcyBJc2xhbmRzBQMxMjRnEAUTVS5TLiBWaXJnaW4gSXNsYW5kcwUDMTI1ZxAFBlVnYW5kYQUDMTI2ZxAFB1VrcmFpbmUFAzEyN2cQBRRVbml0ZWQgQXJhYiBFbWlyYXRlcwUDMTI4ZxAFDlVuaXRlZCBLaW5nZG9tBQMxMjlnEAUHVXJ1Z3VheQUDMTMwZxAFCVZlbmV6dWVsYQUDMTMyZxAFBVllbWVuBQMxMzNnEAUGWmFtYmlhBQMxMzZnEAUIWmltYmFid2UFAzEzN2cWAWZkAiEPZBYCAgEPDxYCHwhkZGQCCg9kFgYCCQ8QZGQWAWZkAg0PEGRkFgFmZAIRDxBkDxYKAgECAgIDAgQCBQIGAgcCCAIJAgoWChAFBDIwMTIFBDIwMTJnEAUEMjAxMwUEMjAxM2cQBQQyMDE0BQQyMDE0ZxAFBDIwMTUFBDIwMTVnEAUEMjAxNgUEMjAxNmcQBQQyMDE3BQQyMDE3ZxAFBDIwMTgFBDIwMThnEAUEMjAxOQUEMjAxOWcQBQQyMDIwBQQyMDIwZxAFBDIwMjEFBDIwMjFnFgFmZAIODxYCHgdvbmNsaWNrBSVqYXZhc2NyaXB0OlNldENhcmRIb2xkZXJJbmZvcm1hdGlvbigpZAIQD2QWBAIRDxBkZBYBZmQCGw8QZGQWAWZkAgIPZBYQAgMPD2QWAh8PBT1qYXZhc2NyaXB0OlNldFByZXZpb3VzU3RlcCgnMScpO1NldEZvY3VzU2VjdGlvbignQmVnaW5TdGVwMScpZAIGDw9kFgIfDwVFamF2YXNjcmlwdDpTZXRQcmV2aW91c1N0ZXAoJzInKTtTZXRGb2N1c1NlY3Rpb24oJ0JpbGxpbmdJbmZvcm1hdGlvbicpZAIQDw9kFgIfDwVFamF2YXNjcmlwdDpTZXRQcmV2aW91c1N0ZXAoJzInKTtTZXRGb2N1c1NlY3Rpb24oJ0NvbnRhY3RJbmZvcm1hdGlvbicpZAITDw9kFgIfDwVIamF2YXNjcmlwdDpTZXRQcmV2aW91c1N0ZXAoJzInKTtTZXRGb2N1c1NlY3Rpb24oJ0NhcmRob2xkZXJJbmZvcm1hdGlvbicpZAIVD2QWBAIDDw9kFgIfDwVCamF2YXNjcmlwdDpTZXRQcmV2aW91c1N0ZXAoJzEnKTtTZXRGb2N1c1NlY3Rpb24oJ0dpZnRDYXJkTWVzc2FnZScpZAIHD2QWAgIBDw8WAh8NBTAvSW52b2x2ZWQvRG9uYXRlL0RvbmF0ZU9ubGluZU5vdy9HaWZ0Q2FyZFByZXZpZXdkZAIWD2QWBAIBD2QWAgIDDw9kFgIfDwVBamF2YXNjcmlwdDpTZXRQcmV2aW91c1N0ZXAoJzEnKTtTZXRGb2N1c1NlY3Rpb24oJ0NhcmRSZWNpcGllbnQxJylkAgMPZBYCAgMPD2QWAh8PBUFqYXZhc2NyaXB0OlNldFByZXZpb3VzU3RlcCgnMScpO1NldEZvY3VzU2VjdGlvbignQ2FyZFJlY2lwaWVudDInKWQCFw9kFgQCAQ9kFgICAw8PZBYCHw8FQWphdmFzY3JpcHQ6U2V0UHJldmlvdXNTdGVwKCcxJyk7U2V0Rm9jdXNTZWN0aW9uKCdDYXJkUmVjaXBpZW50MycpZAIDD2QWAgIDDw9kFgIfDwVBamF2YXNjcmlwdDpTZXRQcmV2aW91c1N0ZXAoJzEnKTtTZXRGb2N1c1NlY3Rpb24oJ0NhcmRSZWNpcGllbnQ0JylkAhgPZBYCAgMP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ZxAFBDIwMTUFBDIwMTVnEAUEMjAxNgUEMjAxNmcQBQQyMDE3BQQyMDE3ZxAFBDIwMTgFBDIwMThnEAUEMjAxOQUEMjAxOWcQBQQyMDIwBQQyMDIwZxAFBDIwMjEFBDIwMjFnZGQCAw8WAh8IBYAFPHAgc3R5bGU9ImJhY2tncm91bmQ6dXJsKC9mcC9jbGVhci5wbmc/b3JnX2lkPWs4dmlmOTJlJnNlc3Npb25faWQ9Y2FuY2VyX29yZzgzNzA5YmE1OWY3ZjRlNzliOWQ2YTZiMmJjODIwZDBmJm09MSkiPjwvcD48aW1nIHNyYz0iL2ZwL2NsZWFyLnBuZz9vcmdfaWQ9azh2aWY5MmUmc2Vzc2lvbl9pZD1jYW5jZXJfb3JnODM3MDliYTU5ZjdmNGU3OWI5ZDZhNmIyYmM4MjBkMGYmbT0yIiBhbHQ9IiI+PG9iamVjdCB0eXBlPSJhcHBsaWNhdGlvbi94LXNob2Nrd2F2ZS1mbGFzaCIgZGF0YT0iL2ZwL2ZwLnN3Zj9vcmdfaWQ9azh2aWY5MmUmc2Vzc2lvbl9pZD1jYW5jZXJfb3JnODM3MDliYTU5ZjdmNGU3OWI5ZDZhNmIyYmM4MjBkMGYgd2lkdGg9IjEiIGhlaWdodD0iMSIgaWQ9InRobV9mcCI+PHBhcmFtIG5hbWU9Im1vdmllIiB2YWx1ZT0iL2ZwL2ZwLnN3Zj9vcmdfaWQ9azh2aWY5MmUmc2Vzc2lvbl9pZD1jYW5jZXJfb3JnODM3MDliYTU5ZjdmNGU3OWI5ZDZhNmIyYmM4MjBkMGYiIC8+PC9vYmplY3Q+PHNjcmlwdCBzcmM9Ii9mcC9jaGVjay5qcz9vcmdfaWQ9azh2aWY5MmUmc2Vzc2lvbl9pZD1jYW5jZXJfb3JnODM3MDliYTU5ZjdmNGU3OWI5ZDZhNmIyYmM4MjBkMGYiIHR5cGU9InRleHQvamF2YXNjcmlwdCIgPjwvc2NyaXB0PmQCBg9kFgICAQ9kFgICAQ9kFgICAQ9kFgwCEQ8QZGQWAWZkAhYPEGRkFgFmZAIZD2QWBAITDxBkZBYBZmQCHQ8QZGQWAWZkAhoPZBYEAhMPEGRkFgFmZAIdDxBkZBYBZmQCGw9kFgQCEw8QZGQWAWZkAh0PEGRkFgFmZAIcD2QWBAITDxBkZBYBZmQCHQ8QZGQWAWZkAgcPZBYCAgEPZBYCZg9kFgICAQ8PFgIfBwVDL2Fjcy9ncm91cHMvY29udGVudC9kb2N1bWVudHMvaW1hZ2UvRE9OLURPLURFRkFVTFQtRk9PVEVSLUlNQUdFLmpwZ2RkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYHBSZkb1N0ZXAxJEdpZnREZXRhaWxzJHJiR2lmdFR5cGVNZW1vcmlhbAUmZG9TdGVwMSRHaWZ0RGV0YWlscyRyYkdpZnRUeXBlTWVtb3JpYWwFI2RvU3RlcDEkR2lmdERldGFpbHMkcmJHaWZ0VHlwZUhvbm9yBSNkb1N0ZXAxJEdpZnREZXRhaWxzJHJiR2lmdFR5cGVIb25vcgUlZG9TdGVwMSRHaWZ0RGV0YWlscyRyYkdpZnRUeXBlR2VuZXJhbAUlZG9TdGVwMSRHaWZ0RGV0YWlscyRyYkdpZnRUeXBlR2VuZXJhbAUSZG9TdGVwMSRsYnRuU3VibWl0BQ9kb1N0ZXAzJENhcmRUYWIPD2RmZHw/5SPvgnoI3IX+zVTGPTpEu23/" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+</div>
+        
+
+    <div id="page-wrapper">
+	<!-- BEGIN: PAGE WRAPPER -->
+      	<div class="left">
+        	<div class="left-column" >
+			
+			<!-- BEGIN: MAIN CONTENT AREA (Width 682px)-->	
+			
+				<!-- SS_BEGIN_SNIPPET(fragHeader,.Net Placeholder)-->
+					<div>
+                
+<div id="donate-banner-top">
+	<div>
+	    <img id="doHeader_Image" src="/acs/groups/content/documents/image/DON-DO-DEFAULT-HEADER-IMAGE.jpg" style="border-width:0px;" />
+	</div>
+</div>  
+<!--<div id="page-top-h2">-->
+<div>
+    <h1>
+        <span id="doHeader_Heading" style="color:#BA5B08; text-transform:uppercase;font-size:1.5em;">Donate And Save Lives</span>
+    </h1>
+</div>
+<div id="page-top-h3">
+    <span id="doHeader_Subheading">Join the fight against cancer by donating to the American Cancer Society</span>
+</div>
+<div id="page-subhead">
+    <span id="doHeader_Description"></span>
+</div>
+<div style="color:Red;text-align:center;">
+
+</div>
+            </div>
+				
+			
+				<!-- SS_END_SNIPPET(fragHeader,.Net Placeholder)-->
+
+
+				<!-- BEGIN: Donation Form -->
+			
+				<div style="float:left;">
+				<!--SS_BEGIN_SNIPPET(fragDonationForm,.Net Placeholder)-->
+				<div> 
+			    <script type="text/javascript">
+			        function SetPreviousStep(step)
+			        {
+			            document.getElementById("currentState").value = step;
+			            document.getElementById("hdnCurrentStep").value = step;
+			        }
+			        function SetFocusSection(focusSection)
+			        {
+			            document.getElementById("hdnFocusOnSection").value = focusSection;
+			        }
+    			    
+			        //Client Side function for Custom Validator for Postal Code (cvValidatePostalCode in ContactInformation Control)
+			        //Validation Rule: If Country selected is USA then Postal Code is required and should be 5 digits
+                    function ValidatePostalCode(source, args)
+                    {
+                        var id = source.id;
+                        var index = id.lastIndexOf("_");
+                        var prefix = id.substr(0,index+1);
+                        
+                        var country = document.getElementById( prefix + "drpCountry" );
+                        var postalCode = document.getElementById(prefix + "txtPostalCode");
+                                
+                        if( country.value == "131")
+                        {
+                            var eZipRegExp = "^\\d{5}$";
+                            var regex = new RegExp(eZipRegExp);
+                            var zip = postalCode.value;
+                            
+                            if(!regex.test(zip))
+                            {
+	                            args.IsValid = false;
+                                return;
+                            }
+                            else
+                            {
+                                args.IsValid = true;
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            args.IsValid = true;
+                            return;
+                        }
+                    }
+
+                    //Client Side function for Custom Validator for State (cvValidateState in ContactInformation Control)
+                    //Validation Rule: If Country selected is USA then State is required
+                    function ValidateState(source, args) 
+                    {
+                        var id = source.id;
+                        var index = id.lastIndexOf("_");
+                        var prefix = id.substr(0, index + 1);
+
+                        var country = document.getElementById(prefix + "drpCountry");
+                        var state = document.getElementById(prefix + "drpState");
+
+                        if (country.value == "131")
+                        {
+                            if (state.value == "") {
+                                args.IsValid = false;
+                                return;
+                            }
+                            else {
+                                args.IsValid = true;
+                                return;
+                            }
+                        }
+                        else {
+                            args.IsValid = true;
+                            return;
+                        }
+                    }
+                    $(document).ready(function() {
+
+                        //Set OnFocus for All Input elements
+//                        $("form input:radio, form input:text, form input:image, form input:checkbox, form select, form textarea").focus(function() {
+//                            $(this).addClass('recievedFocus');
+//                        });
+
+//                        $("form input:radio, form input:text, form input:image, form input:checkbox, form select, form textarea").blur(function() {
+//                            $(this).removeClass('recievedFocus');
+//                        });
+
+                        //Set mouse Over for Back Button
+                        $("#" + "lbtnBack").hover(function() {
+                            $(this).attr('src', '/app/images/s/l/1/Involved/BACK.btn');
+                        },
+                        function() {
+                            $(this).attr('src', '/app/images/s/l/0/Involved/BACK.btn');
+                        }
+                       );
+                        $("#" + "lbtnBack").hover();
+
+                        //Set Mouse Over for Next Button
+                        $("#" + "lbtnNext").hover(function() {
+                            $(this).attr('src', '/app/images/s/r/1/Involved/NEXT.btn');
+                        },
+                        function() {
+                            $(this).attr('src', '/app/images/s/r/0/Involved/NEXT.btn');
+                        }
+                       );
+                        $("#" + "lbtnNext").hover();
+
+                        //Set Mouse Over for Review Your Gift Button
+                        $("#" + "lbtnVerifyEntries").hover(function() {
+                            $(this).attr('src', '/app/images/s/r/1/Involved/REVIEW YOUR GIFT.btn');
+                        },
+                        function() {
+                            $(this).attr('src', '/app/images/s/r/0/Involved/REVIEW YOUR GIFT.btn');
+                        }
+                       );
+                        $("#" + "lbtnVerifyEntries").hover();
+
+                        //Set Mouse Over for Confirm Gift Button
+                        $("#" + "lbtnSubmit").hover(function() {
+                            $(this).attr('src', '/app/images/s/r/1/Involved/CONFIRM GIFT.btn');
+                        },
+                        function() {
+                            $(this).attr('src', '/app/images/s/r/0/Involved/CONFIRM GIFT.btn');
+                        }
+                       );
+                        $("#" + "lbtnSubmit").hover();
+
+                        //Hide Back and Confirm Gift Buttons and show Please Wait Message
+                        $("#" + "lbtnSubmit").click(function() {
+                            $("#" + "lbtnBack").hide();
+                            $("#" + "lbtnSubmit").hide();
+
+                            $("#" + "divPleaseWait").show();
+                        });
+                    });
+			    </script>
+                
+
+
+<div class="formbox top-10">
+            
+              <div class="fleft"></div>
+              <div class="fright"><p><strong>* Required Fields</strong></p></div>
+              <div class="clearboth"></div>
+              
+        	  <div class="left">
+	            <div class="number no1">
+	                <span id="DonationStep1_lblGiftAmountSectionNumber">1</span>
+	            </div>
+        	  </div>
+              
+        	  <fieldset>
+              
+            	<legend class="right sectionHeader">
+			      <span id=""><span id="doStep1_GiftDetails_lblGiftSectionHeader">YOUR GIFT</span></span>
+				</legend>
+                
+    			<div class="right">
+                
+                    <div class="donatefield-218">
+                        <label for="doStep1_GiftDetails_txtFirstName">
+                            <span id="doStep1_GiftDetails_lblFirstName">First Name</span>: *
+                        </label>
+                        <input name="doStep1$GiftDetails$txtFirstName" type="text" maxlength="30" id="doStep1_GiftDetails_txtFirstName" />
+                        
+                    </div>
+            
+                    <div class="donatefield-032">
+                        <label for="doStep1_GiftDetails_txtMI">
+                            <span id="doStep1_GiftDetails_lblMI">M.I.</span>:
+                        </label>
+                        <input name="doStep1$GiftDetails$txtMI" type="text" maxlength="1" id="doStep1_GiftDetails_txtMI" />
+                    </div>
+
+                    <div class="donatefield-218 no-margin">
+                        <label for="doStep1_GiftDetails_txtLastName">
+                            <span id="doStep1_GiftDetails_lblLastName">Last Name</span>: *
+                        </label>
+                        <input name="doStep1$GiftDetails$txtLastName" type="text" maxlength="40" id="doStep1_GiftDetails_txtLastName" />
+                        
+                    </div>
+                    
+                </div>    
+                
+    			<div class="right">
+                    
+                    <div class="donatefield-218">
+                      <label for="doStep1_GiftDetails_txtEmailAddress">
+                        <span id="doStep1_GiftDetails_lblEmailAddress">Email</span>: *
+                      </label>
+                      <input name="doStep1$GiftDetails$txtEmailAddress" type="text" maxlength="40" id="doStep1_GiftDetails_txtEmailAddress" />
+                      
+                      
+                    </div>
+                    
+                    <div class="donatefield-218 no-margin">
+                      <label for="doStep1_GiftDetails_txtEmailAddressRetyped">
+                        <span id="doStep1_GiftDetails_lblEmailAddressRetyped">Re-type Email</span>: *
+                      </label>
+                      <input name="doStep1$GiftDetails$txtEmailAddressRetyped" type="text" maxlength="40" id="doStep1_GiftDetails_txtEmailAddressRetyped" />
+                      
+                    </div>
+                </div>
+                
+    			<div class="right">
+                    <div class="donatefield-218 ">
+                      <label for="doStep1_GiftDetails_txtPhoneNumber">
+                        <span id="doStep1_GiftDetails_lblPhoneNumber">Telephone</span>:
+                      </label>
+                      <input name="doStep1$GiftDetails$txtPhoneNumber" type="text" maxlength="20" id="doStep1_GiftDetails_txtPhoneNumber" />
+                      
+                      
+                    </div>
+                </div>
+                
+
+                <div class="right">
+                    <div class="donatefield-550 top-15">
+                        <span>
+                            <b><span id="doStep1_GiftDetails_lblGiftType">Would you like to donate in memory or honor of someone?</span> *</b>
+                            
+<div class="helpContainer" style="display:inline;height:12px;vertical-align:top;">
+    <img class="help" alt="Remember or honor a loved one by name with your donation. You will have the option to send a card by email or mail after your donation is complete." src="/acs/fragments/doheader/images/donation-icon_question-bubble.png">
+</div>
+                        </span>
+                    </div>
+                    <div class="donatefield-550 top-15 giftTypeNote">
+                        <span>
+                            <span id="doStep1_GiftDetails_lblGiftTypeNotification">You will have the option to send a card by email or mail after you complete the donation form.</span>
+                        </span>
+                    </div>
+                    
+                    <script type="text/javascript">
+                        function ValidateGiftType(src, e) {
+                            var general = document.getElementById("doStep1_GiftDetails_rbGiftTypeGeneral");
+                            var honor = document.getElementById("doStep1_GiftDetails_rbGiftTypeHonor");
+                            var memorial = document.getElementById("doStep1_GiftDetails_rbGiftTypeMemorial");
+
+                            if (!general.checked && !honor.checked && !memorial.checked) {
+                                e.IsValid = false;
+                            }
+                        }
+                        function ValidateGiftTypeMemorialFirstName(src, e) {
+                            var radio = document.getElementById("doStep1_GiftDetails_rbGiftTypeMemorial");
+                            var input = document.getElementById("doStep1_GiftDetails_txtGiftTypeMemorialFirstName");
+
+                            if (!radio.checked)
+                                input.value = "";
+
+                            if (radio.checked && input.value == "")
+                                e.IsValid = false;
+                        }
+                        function ValidateGiftTypeMemorialLastName(src, e) {
+                            var radio = document.getElementById("doStep1_GiftDetails_rbGiftTypeMemorial");
+                            var input = document.getElementById("doStep1_GiftDetails_txtGiftTypeMemorialLastName");
+
+                            if (!radio.checked)
+                                input.value = "";
+
+                            if (radio.checked && input.value == "")
+                                e.IsValid = false;
+                        }
+                        function ValidateGiftTypeHonorFirstName(src, e) {
+                            var radio = document.getElementById("doStep1_GiftDetails_rbGiftTypeHonor");
+                            var input = document.getElementById("doStep1_GiftDetails_txtGiftTypeHonorFirstName");
+
+                            if (!radio.checked)
+                                input.value = "";
+
+                            if (radio.checked && input.value == "")
+                                e.IsValid = false;
+                        }
+                        function ValidateGiftTypeHonorLastName(src, e) {
+                            var radio = document.getElementById("doStep1_GiftDetails_rbGiftTypeHonor");
+                            var input = document.getElementById("doStep1_GiftDetails_txtGiftTypeHonorLastName");
+
+                            if (!radio.checked)
+                                input.value = "";
+
+                            if (radio.checked && input.value == "")
+                                e.IsValid = false;
+                        }
+                        function ClearGiftTypeMemorialFields() {
+                            var radio = document.getElementById("doStep1_GiftDetails_rbGiftTypeMemorial");
+                            var first = document.getElementById("doStep1_GiftDetails_txtGiftTypeMemorialFirstName");
+                            var last = document.getElementById("doStep1_GiftDetails_txtGiftTypeMemorialLastName");
+                            if (!radio.checked) {
+                                first.value = "";
+                                last.value = "";
+                                first.disabled = true;
+                                last.disabled = true;
+                            }
+
+                        }
+                        function ClearGiftTypeHonorFields() {
+                            var radio = document.getElementById("doStep1_GiftDetails_rbGiftTypeHonor");
+                            var first = document.getElementById("doStep1_GiftDetails_txtGiftTypeHonorFirstName");
+                            var last = document.getElementById("doStep1_GiftDetails_txtGiftTypeHonorLastName");
+                            if (!radio.checked) {
+                                first.value = "";
+                                last.value = "";
+                                first.disabled = true;
+                                last.disabled = true;
+                            }
+
+                        }
+                        function ClearGiftTypeFields() {
+                            ClearGiftTypeMemorialFields();
+                            ClearGiftTypeHonorFields();
+                        }
+                        function EnableGiftTypeHonorFields() {
+                            ClearGiftTypeMemorialFields();
+                            var radio = document.getElementById("doStep1_GiftDetails_rbGiftTypeHonor");
+                            var first = document.getElementById("doStep1_GiftDetails_txtGiftTypeHonorFirstName");
+                            var last = document.getElementById("doStep1_GiftDetails_txtGiftTypeHonorLastName");
+                            if (radio.checked) {
+                                first.disabled = false;
+                                last.disabled = false;
+                            }
+                        }
+                        function EnableGiftTypeMemorialFields() {
+                            ClearGiftTypeHonorFields();
+                            var radio = document.getElementById("doStep1_GiftDetails_rbGiftTypeMemorial");
+                            var first = document.getElementById("doStep1_GiftDetails_txtGiftTypeMemorialFirstName");
+                            var last = document.getElementById("doStep1_GiftDetails_txtGiftTypeMemorialLastName");
+                            if (radio.checked) {
+                                first.disabled = false;
+                                last.disabled = false;
+                            }
+                        }
+                    </script>
+                                        
+                    <div>
+                        <div class="top-10">
+                            <input id="doStep1_GiftDetails_rbGiftTypeMemorial" type="radio" name="doStep1$GiftDetails$GiftType" value="rbGiftTypeMemorial" onclick="EnableGiftTypeMemorialFields();" />  
+                            <label for="doStep1_GiftDetails_rbGiftTypeMemorial"><span id="doStep1_GiftDetails_lblGiftTypeMemorial">Yes, I would like to remember</span>:</label>
+                            <div class="sub-donatefield-550">
+                                <div class="sub-donatefield-146">
+                                    <label for="doStep1_GiftDetails_txtGiftTypeMemorialFirstName">
+                                        <b><span id="doStep1_GiftDetails_lblGiftTypeMemorialFirstName">First Name</span>:</b> *
+                                    </label>
+                                    <input name="doStep1$GiftDetails$txtGiftTypeMemorialFirstName" type="text" maxlength="40" id="doStep1_GiftDetails_txtGiftTypeMemorialFirstName" disabled="disabled" />
+                                    <div>
+                                        
+                                   </div>
+                                </div>
+                                <div class="sub-donatefield-146">
+                                    <label for="doStep1_GiftDetails_txtGiftTypeMemorialLastName">
+                                        <b><span id="doStep1_GiftDetails_lblGiftTypeMemorialLastName">Last Name</span>:</b> *
+                                    </label>
+                                    <input name="doStep1$GiftDetails$txtGiftTypeMemorialLastName" type="text" maxlength="40" id="doStep1_GiftDetails_txtGiftTypeMemorialLastName" disabled="disabled" />
+                                    <div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <input id="doStep1_GiftDetails_rbGiftTypeHonor" type="radio" name="doStep1$GiftDetails$GiftType" value="rbGiftTypeHonor" onclick="EnableGiftTypeHonorFields();" />
+                            <label for="doStep1_GiftDetails_rbGiftTypeHonor"><span id="doStep1_GiftDetails_lblGiftTypeHonor">Yes, I would like to honor</span>:</label>
+                            <div class="sub-donatefield-550">
+                                <div class="sub-donatefield-146">
+                                    <label for="doStep1_GiftDetails_txtGiftTypeHonorFirstName">
+                                        <b><span id="doStep1_GiftDetails_lblGiftTypeHonorFirstName">First Name</span>:</b> *
+                                    </label>
+                                    <input name="doStep1$GiftDetails$txtGiftTypeHonorFirstName" type="text" maxlength="40" id="doStep1_GiftDetails_txtGiftTypeHonorFirstName" disabled="disabled" />
+                                    <div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="sub-donatefield-146">
+                                    <label for="doStep1_GiftDetails_txtGiftTypeHonorLastName">
+                                        <b><span id="doStep1_GiftDetails_lblGiftTypeHonorLastName">Last Name</span>:</b> *
+                                    </label>
+                                    <input name="doStep1$GiftDetails$txtGiftTypeHonorLastName" type="text" maxlength="40" id="doStep1_GiftDetails_txtGiftTypeHonorLastName" disabled="disabled" />
+                                    <div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <input id="doStep1_GiftDetails_rbGiftTypeGeneral" type="radio" name="doStep1$GiftDetails$GiftType" value="rbGiftTypeGeneral" onclick="ClearGiftTypeFields();" />
+                            <label for="doStep1_GiftDetails_rbGiftTypeGeneral"><span id="doStep1_GiftDetails_lblGiftTypeGeneral">No thanks.</span></label>
+                        </div>
+                    </div>   
+                    <div>
+                        
+                    </div>
+                </div>    
+
+
+
+    			<div class="right">
+			    	<div class="donatefield-550 top-15">
+			    	    <label for="doStep1_GiftDetails_divGiftDesignationDropDown">
+                            <b><span id="doStep1_GiftDetails_lblGiftDesignationSectionText">Where would you like to designate your gift?</span> *</b>
+			    	    </label>
+			    	</div>			    	
+		            <div id="doStep1_GiftDetails_divGiftDesignationDropDown">
+			            <select name="doStep1$GiftDetails$drpGiftDesignation" id="doStep1_GiftDetails_drpGiftDesignation">
+	<option value="1">Where it’s needed most</option>
+	<option value="2">Cancer Research</option>
+	<option value="3">Breast Cancer</option>
+	<option value="4">Prostate Cancer</option>
+	<option value="5">Colorectal Cancer</option>
+	<option value="6">Lung Cancer</option>
+
+</select>
+		                
+		            </div>                    
+                </div>
+
+
+
+
+                <script type="text/javascript" language="javascript">
+                    //Function that is called by Custom Validator for txtOneTimeDonationAmount (cvOneTimeDonationAmount)
+                    //Validation Rule: Amount should be greater than 5.00
+                    function ValidateDonationAmount(src, e) {
+                        var list = "doStep1_GiftDetails_rblDonationAmountOptions";
+                        var items = 5;
+                        var otherItem = document.getElementById(list + "_" + (items-1));
+                        var otherItemChecked = (items>0 && otherItem.value == "other")?otherItem.checked:true;
+                        var minAmount = 5.00;
+                        var amount = e.Value;
+                        
+                        if (otherItemChecked) {
+                            var regex = new RegExp("^(\\d{1,}(.\\d{2})?)$");
+                            if (!regex.test(amount))
+                                e.IsValid = false;
+                            else if (parseFloat(amount) < parseFloat(minAmount))
+                                e.IsValid = false;
+                                
+                        } else {
+                           document.getElementById('doStep1_GiftDetails_txtDonationAmountOther').value = "";
+                        }
+                    }
+                    
+                    function ValidateImpactFundsAmount() {
+                        //This rule applies only for Impact Fund Restrictions
+                        //Checks if the Donation Amount entered in the other amount text box is less than 100.00
+                        //If less than ifMinDonAmount informs donor that the amount will designated to Area of Greatest Need.
+                        
+                        var list = "doStep1_GiftDetails_rblDonationAmountOptions";
+                        var items = 5;
+                        var otherItem = document.getElementById(list + "_" + (items-1));
+                        var otherItemChecked = (items>0 && otherItem.value == "other")?otherItem.checked:true;
+                        var minAmount = 5.00;
+                        var amount = $("#doStep1_GiftDetails_txtDonationAmountOther").val();
+                        
+                        if (otherItemChecked) {
+                            var regex = new RegExp("^(\\d{1,}(.\\d{2})?)$");
+                            if (regex.test(amount)) {                                
+                                var ifMinDonAmount = 100.00;
+                                var ifAreaGreatestNeed = 8;
+                                var ifMessage = "Please note that gifts less than $" + ifMinDonAmount + " will be applied to the area of greatest need.";
+                                var ifList = "#doStep1_GiftDetails_drpGiftDesignation";
+
+                                if (parseFloat(amount) < parseFloat(ifMinDonAmount)) {
+                                    $(ifList).attr("initialValue",$(ifList).val());
+                                    //Notify the User that his donation will be routed to Area Of Greatest Need Fund
+                                    alert(ifMessage);
+                                    //Change the Designation Message to reflect the Area Of Greatest Need Fund and select 
+                                    //the corresponding option in the Designation Dropdown and set some Hidden Field Values
+                                    $(ifList).val(ifAreaGreatestNeed);
+                                } else if ($(ifList).val() == ifAreaGreatestNeed) {
+                                    //Change Designation Message Back to Original Intended Value Fund
+                                    //and select the corresponding option in the Designation Dropdown
+                                    $(ifList).val($(ifList).attr("initialValue"));
+                                }
+                            }
+                        }
+                        else {
+                           document.getElementById('doStep1_GiftDetails_txtDonationAmountOther').value = "";
+                        }
+                    }
+
+                    //Clean out anything that isn't a number or decimal point
+                    function CleanDonationAmount() {
+                        e = document.getElementById('doStep1_GiftDetails_txtDonationAmountOther');
+                        e.value = e.value.replace(/([^0-9.])*/gi,'');
+                    }
+                    
+                    $(document).ready(function() {
+                    
+                        var ifList = "#doStep1_GiftDetails_drpGiftDesignation";
+                        $(ifList).attr("initialValue",$(ifList).val());
+                        $(ifList).change(ValidateImpactFundsAmount);
+
+                    
+                        EnableOtherField();
+                        $('#doStep1_GiftDetails_rblDonationAmountOptions input:radio').click(EnableOtherField);
+                    })  
+                                      
+                    function EnableOtherField(){
+                        var list = "doStep1_GiftDetails_rblDonationAmountOptions";
+                        var otherItemField = "doStep1_GiftDetails_txtDonationAmountOther";
+                        var items = 5;
+                        var otherItem = document.getElementById(list + "_" + (items-1));
+                        var otherItemChecked = (items>0)?otherItem.checked:true;
+                        
+                        document.getElementById(otherItemField).disabled = !otherItemChecked;
+                        if(!otherItemChecked)
+                            document.getElementById(otherItemField).value = "";
+                    }
+                </script>
+
+
+
+                <div class="right">
+                    <div class="donatefield-550 top-15">
+                        <span><b><span id="doStep1_GiftDetails_lblDonationAmountSectionHeader">How much would you like to give?</span> *</b></span>
+                    </div>
+                    <div>
+                        <span id="doStep1_GiftDetails_rblDonationAmountOptions"><input id="doStep1_GiftDetails_rblDonationAmountOptions_0" type="radio" name="doStep1$GiftDetails$rblDonationAmountOptions" value="50" checked="checked" /><label for="doStep1_GiftDetails_rblDonationAmountOptions_0">$50</label><input id="doStep1_GiftDetails_rblDonationAmountOptions_1" type="radio" name="doStep1$GiftDetails$rblDonationAmountOptions" value="75" /><label for="doStep1_GiftDetails_rblDonationAmountOptions_1">$75</label><input id="doStep1_GiftDetails_rblDonationAmountOptions_2" type="radio" name="doStep1$GiftDetails$rblDonationAmountOptions" value="100" /><label for="doStep1_GiftDetails_rblDonationAmountOptions_2">$100</label><input id="doStep1_GiftDetails_rblDonationAmountOptions_3" type="radio" name="doStep1$GiftDetails$rblDonationAmountOptions" value="250" /><label for="doStep1_GiftDetails_rblDonationAmountOptions_3">$250</label><input id="doStep1_GiftDetails_rblDonationAmountOptions_4" type="radio" name="doStep1$GiftDetails$rblDonationAmountOptions" value="other" /><label for="doStep1_GiftDetails_rblDonationAmountOptions_4">Other</label></span>
+                        <label for="doStep1_GiftDetails_txtDonationAmountOther">
+                            <span id="doStep1_GiftDetails_lblDonationAmountOther">$</span>
+                        </label>
+                        <input name="doStep1$GiftDetails$txtDonationAmountOther" type="text" maxlength="10" id="doStep1_GiftDetails_txtDonationAmountOther" disabled="disabled" onkeypress="CleanDonationAmount();" onblur="CleanDonationAmount();" onchange="CleanDonationAmount();" />
+
+
+                    </div>   
+                    <div>
+                        
+                    </div>
+                    
+                    <div>
+                        
+                    </div>
+                </div>
+                
+                
+                 
+    			<div id="doStep1_GiftDetails_divRecurringDonation" class="right">
+			    	<div class="donatefield-550 top-15">
+				     <span><b>Would you like this to be a recurring donation? *</b>
+                     
+<div class="helpContainer" style="display:inline;height:12px;vertical-align:top;">
+    <img class="help" alt="Continue giving every month with this option.  Your credit card will be charged on the 15th of each month." src="/acs/fragments/doheader/images/donation-icon_question-bubble.png">
+</div>
+                     </span>
+			    	</div>
+			    	<div>
+                        <select name="doStep1$GiftDetails$drpRecurringDonation" id="doStep1_GiftDetails_drpRecurringDonation">
+	<option value="">Please select</option>
+	<option value="Y">Yes, donate monthly</option>
+	<option value="N">No, thank you</option>
+
+</select>
+                        
+
+			        </div>   
+                </div>
+	    	  </fieldset>
+          	</div>
+          	
+          	
+
+
+<div class="formbox top-1">
+                  
+	  <div class="left">
+        <div class="number no2"><span id="DonationStep1_lblGiftAmountSectionNumber">2</span></div>
+	  </div>
+      
+	  <fieldset>
+      
+    	<legend class="right sectionHeader">
+	      <span id="">YOUR BILLING INFORMATION</span>
+		</legend>
+        
+		<div class="right">
+            <div class="donatefield-0">
+              <span class="section-label">Billing Address</span>
+            </div>
+            <div class="donatefield-218">
+                <label for="doStep1_BillingDetails_txtFirstName">
+                    <span id="doStep1_BillingDetails_lblFirstName">First Name</span>: *
+                </label>
+                <input name="doStep1$BillingDetails$txtFirstName" type="text" maxlength="30" id="doStep1_BillingDetails_txtFirstName" />
+                
+            </div>
+            <div class="donatefield-032">
+                <label for="doStep1_BillingDetails_txtMI">
+                    <span id="doStep1_BillingDetails_lblMI">M.I.</span>:
+                </label>
+                <input name="doStep1$BillingDetails$txtMI" type="text" maxlength="1" id="doStep1_BillingDetails_txtMI" />
+            </div>
+            <div class="donatefield-218 no-margin">
+                <label for="doStep1_BillingDetails_txtLastName">
+                    <span id="doStep1_BillingDetails_lblLastName">Last Name</span>: *
+                </label>
+                <input name="doStep1$BillingDetails$txtLastName" type="text" maxlength="40" id="doStep1_BillingDetails_txtLastName" />
+                
+            </div>    
+        </div>   
+         
+		<div class="right">
+            <div class="donatefield-406">
+                <label for="doStep1_BillingDetails_txtAddressLine1">
+                    <span id="doStep1_BillingDetails_lblAddressLine1">Address Line 1</span>: *
+                </label>
+                <input name="doStep1$BillingDetails$txtAddressLine1" type="text" maxlength="50" id="doStep1_BillingDetails_txtAddressLine1" />
+                
+            </div>
+            <div class="donatefield-406">
+                <label for="doStep1_BillingDetails_txtAddressLine2">
+                    <span id="doStep1_BillingDetails_lblAdressLine2">Address Line 2</span>:
+                </label>
+                <input name="doStep1$BillingDetails$txtAddressLine2" type="text" maxlength="40" id="doStep1_BillingDetails_txtAddressLine2" />
+            </div>
+        </div>    
+        
+		<div class="right">
+            <div class="donatefield-146">
+                <label for="doStep1_BillingDetails_txtCity">
+                    <span id="doStep1_BillingDetails_lblCity">City</span>: *
+                </label>
+                <input name="doStep1$BillingDetails$txtCity" type="text" maxlength="40" id="doStep1_BillingDetails_txtCity" />      
+                
+            </div>
+            <div class="donatefield-128 no-margin">
+                <label for="doStep1_BillingDetails_drpState">
+                    <span id="doStep1_BillingDetails_lblState">State</span>:
+                </label>
+                <select name="doStep1$BillingDetails$drpState" id="doStep1_BillingDetails_drpState" style="width:114px;">
+	<option selected="selected" value="">Please select</option>
+	<option value="1">Alabama</option>
+	<option value="2">Alaska</option>
+	<option value="3">Arizona</option>
+	<option value="4">Arkansas</option>
+	<option value="5">California</option>
+	<option value="6">Colorado</option>
+	<option value="7">Connecticut</option>
+	<option value="8">Delaware</option>
+	<option value="9">District of Columbia</option>
+	<option value="10">Florida</option>
+	<option value="11">Georgia</option>
+	<option value="12">Guam</option>
+	<option value="13">Hawaii</option>
+	<option value="14">Idaho</option>
+	<option value="15">Illinois</option>
+	<option value="16">Indiana</option>
+	<option value="17">Iowa</option>
+	<option value="18">Kansas</option>
+	<option value="19">Kentucky</option>
+	<option value="20">Louisiana</option>
+	<option value="21">Maine</option>
+	<option value="22">Maryland</option>
+	<option value="23">Massachusetts</option>
+	<option value="24">Michigan</option>
+	<option value="25">Minnesota</option>
+	<option value="26">Mississippi</option>
+	<option value="27">Missouri</option>
+	<option value="28">Montana</option>
+	<option value="29">Nebraska</option>
+	<option value="30">Nevada</option>
+	<option value="31">New Hampshire</option>
+	<option value="32">New Jersey</option>
+	<option value="33">New Mexico</option>
+	<option value="34">New York</option>
+	<option value="35">North Carolina</option>
+	<option value="36">North Dakota</option>
+	<option value="37">Ohio</option>
+	<option value="38">Oklahoma</option>
+	<option value="39">Oregon</option>
+	<option value="40">Pennsylvania</option>
+	<option value="41">Puerto Rico</option>
+	<option value="42">Rhode Island</option>
+	<option value="43">South Carolina</option>
+	<option value="44">South Dakota</option>
+	<option value="45">Tennessee</option>
+	<option value="46">Texas</option>
+	<option value="47">Utah</option>
+	<option value="48">Vermont</option>
+	<option value="49">Virgin Islands</option>
+	<option value="50">Virginia</option>
+	<option value="51">Washington</option>
+	<option value="52">West Virginia</option>
+	<option value="53">Wisconsin</option>
+	<option value="54">Wyoming</option>
+	<option value="55">Armed Forces AA</option>
+	<option value="56">Armed Forces AE</option>
+	<option value="57">Armed Forces AP</option>
+	<option value="58">Alberta</option>
+	<option value="59">British Columbia</option>
+	<option value="60">Manitoba</option>
+	<option value="61">New Brunswick</option>
+	<option value="62">Newfoundland and Labrador</option>
+	<option value="63">Northwest Territories</option>
+	<option value="64">Nova Scotia</option>
+	<option value="65">Ontario</option>
+	<option value="66">Prince Edward Island</option>
+	<option value="67">Quebec</option>
+	<option value="68">Saskatchewan</option>
+	<option value="69">Yukon</option>
+
+</select>
+                
+                
+                
+            </div>
+            <div class="donatefield-128">
+                <label for="doStep1_BillingDetails_txtPostalCode">
+                    <span id="doStep1_BillingDetails_lblPostalCode">Postal Code (*US, CA)</span>:
+                </label>
+                <input name="doStep1$BillingDetails$txtPostalCode" type="text" maxlength="10" id="doStep1_BillingDetails_txtPostalCode" />
+                
+                
+                
+            </div>
+            <div class="donatefield-128 no-margin">
+                <label for="doStep1_BillingDetails_drpCountry">
+                    <span id="doStep1_BillingDetails_lblCountry">Country</span>: *
+                </label>
+                <select name="doStep1$BillingDetails$drpCountry" id="doStep1_BillingDetails_drpCountry" style="width:128px;">
+	<option selected="selected" value="">Please select</option>
+	<option value="131">USA</option>
+	<option value="1">Albania</option>
+	<option value="2">Algeria</option>
+	<option value="3">American Samoa</option>
+	<option value="100">Angullia</option>
+	<option value="101">Antigua</option>
+	<option value="4">Argentina</option>
+	<option value="5">Armenia</option>
+	<option value="6">Aruba</option>
+	<option value="7">Australia</option>
+	<option value="8">Austria</option>
+	<option value="102">Bahamas</option>
+	<option value="9">Bahrain</option>
+	<option value="10">Bangladesh</option>
+	<option value="103">Barbados</option>
+	<option value="104">Barbuda</option>
+	<option value="11">Belgium</option>
+	<option value="12">Belize</option>
+	<option value="106">Bermuda</option>
+	<option value="13">Bolivia</option>
+	<option value="14">Bosnia</option>
+	<option value="15">Brazil</option>
+	<option value="105">British Virgin Islands</option>
+	<option value="16">Bulgaria</option>
+	<option value="17">Canada</option>
+	<option value="107">Cayman Islands</option>
+	<option value="18">Chile</option>
+	<option value="19">China</option>
+	<option value="20">Colombia</option>
+	<option value="21">Costa Rica</option>
+	<option value="22">Croatia</option>
+	<option value="23">Cyprus</option>
+	<option value="24">Czech Republic</option>
+	<option value="135">Democratic Republic of Congo</option>
+	<option value="25">Denmark</option>
+	<option value="108">Dominican Republic</option>
+	<option value="109">Domminica</option>
+	<option value="26">Ecuador</option>
+	<option value="27">Egypt</option>
+	<option value="28">El Salvador</option>
+	<option value="29">Estonia</option>
+	<option value="30">Ethiopia</option>
+	<option value="31">Fiji</option>
+	<option value="32">Finland</option>
+	<option value="33">France</option>
+	<option value="34">French Polynesia Tahiti</option>
+	<option value="35">Georgia</option>
+	<option value="36">Germany</option>
+	<option value="37">Greece</option>
+	<option value="110">Grenada</option>
+	<option value="38">Guatemala</option>
+	<option value="39">Guyana</option>
+	<option value="40">Haiti</option>
+	<option value="41">Herzegovina</option>
+	<option value="42">Honduras</option>
+	<option value="43">Hong Kong</option>
+	<option value="44">Hungary</option>
+	<option value="45">Iceland</option>
+	<option value="46">India</option>
+	<option value="47">Indonesia</option>
+	<option value="48">Iran</option>
+	<option value="49">Iraq</option>
+	<option value="50">Ireland</option>
+	<option value="51">Israel</option>
+	<option value="52">Italy</option>
+	<option value="53">Ivory Coast Cote dvoire</option>
+	<option value="112">Jamaica</option>
+	<option value="54">Japan</option>
+	<option value="55">Jordan</option>
+	<option value="56">Kenya</option>
+	<option value="57">Korea, North</option>
+	<option value="138">Korea, South</option>
+	<option value="58">Kuwait</option>
+	<option value="59">Latvia</option>
+	<option value="60">Liberia</option>
+	<option value="61">Libyan Jamahiriya</option>
+	<option value="62">Liechtenstein</option>
+	<option value="63">Lithuania</option>
+	<option value="64">Luxembourg</option>
+	<option value="65">Malaysia</option>
+	<option value="66">Maldives</option>
+	<option value="67">Malta</option>
+	<option value="68">Mauritius</option>
+	<option value="69">Mexico</option>
+	<option value="113">Montserrat</option>
+	<option value="70">Morocco</option>
+	<option value="72">Netherlands</option>
+	<option value="71">Netherlands Antilles</option>
+	<option value="73">New Zealand</option>
+	<option value="74">Nicaragua</option>
+	<option value="75">Nigeria</option>
+	<option value="114">North Mariana Islands</option>
+	<option value="76">Norway</option>
+	<option value="77">Pakistan</option>
+	<option value="78">Panama</option>
+	<option value="79">Paraguay</option>
+	<option value="80">Peru</option>
+	<option value="81">Philippines</option>
+	<option value="82">Poland</option>
+	<option value="83">Portugal</option>
+	<option value="84">Qatar</option>
+	<option value="85">Romania</option>
+	<option value="86">Russia</option>
+	<option value="87">Saudi Arabia</option>
+	<option value="88">Senegal</option>
+	<option value="89">Singapore</option>
+	<option value="90">Slovakia</option>
+	<option value="91">Slovenia</option>
+	<option value="92">South Africa</option>
+	<option value="93">Spain</option>
+	<option value="94">Sri Lanka</option>
+	<option value="116">St. Kitts and Nevis</option>
+	<option value="117">St. Lucia</option>
+	<option value="118">St. Vincent</option>
+	<option value="95">Surinam</option>
+	<option value="96">Sweden</option>
+	<option value="97">Switzerland</option>
+	<option value="119">Tabago and Trinidad</option>
+	<option value="98">Taiwan</option>
+	<option value="99">Tanzania</option>
+	<option value="120">Thailand</option>
+	<option value="121">The Grenadines</option>
+	<option value="122">Tunisia</option>
+	<option value="123">Turkey</option>
+	<option value="124">Turks and Calcos Islands</option>
+	<option value="125">U.S. Virgin Islands</option>
+	<option value="126">Uganda</option>
+	<option value="127">Ukraine</option>
+	<option value="128">United Arab Emirates</option>
+	<option value="129">United Kingdom</option>
+	<option value="130">Uruguay</option>
+	<option value="132">Venezuela</option>
+	<option value="133">Yemen</option>
+	<option value="136">Zambia</option>
+	<option value="137">Zimbabwe</option>
+
+</select>
+                
+                
+            </div>
+
+             <script type="text/javascript">
+                 //Client Side function for Custom Validator for CardHolderState (cvValidateCardHolderState in ContactInformation Control)
+                 //Validation Rule: State is Required Field in CardHolderInformation when CardHolderCountry is USA(131) or Canada(17)
+                 function ValidateCardHolderState(source, args) {
+                     var cardHolderCountry = document.getElementById("doStep1_BillingDetails_drpCountry");
+                     var state = args.Value;
+
+                     if (cardHolderCountry.value == "131" || cardHolderCountry.value == "17") {
+                         if (state == "") {
+                             args.IsValid = false;
+                             return;
+                         }
+                         else {
+                             args.IsValid = true;
+                             return;
+                         }
+                     }
+                     else {
+                         args.IsValid = true;
+                         return;
+                     }
+                 }
+
+                 //Client Side function for Custom Validator for CardHolderPostalCode (cvValidateCardHolderPostalCode in ContactInformation Control)
+                 //Validation Rule: When CardHolderCountry is USA(131) PostalCode should be valid 5 digit Code or is Canada(17) Postal Code should be a valid Canadian Postal Code
+                 function ValidateCardHolderPostalCode(source, args) {
+                     var cardHolderCountry = document.getElementById("doStep1_BillingDetails_drpCountry");
+                     var zip = args.Value;
+
+                     if (cardHolderCountry.value == "131" && zip != "") {
+                         var eZipRegExp = "^\\d{5}$";
+                         var regex = new RegExp(eZipRegExp);
+
+                         if (!regex.test(zip)) {
+                             args.IsValid = false;
+                             return;
+                         }
+                         else {
+                             args.IsValid = true;
+                             return;
+                         }
+                     }
+                     else if (cardHolderCountry.value == "17" && zip != "") {
+                         var eZipCanadaRegExp = "^[a-ceghj-npr-tvxy]\\d[a-z](\\s)?\\d[a-z]\\d$";
+                         var regexCanada = new RegExp(eZipCanadaRegExp, "i");
+
+                         if (!regexCanada.test(zip)) {
+                             args.IsValid = false;
+                             return;
+                         }
+                         else {
+                             args.IsValid = true;
+                             return;
+                         }
+                     }
+                     else {
+                         args.IsValid = true;
+                         return;
+                     }
+                 }
+            </script>   
+            
+            <script type="text/javascript">
+                //Client Side function for Custom Validator for Billing Expiration Date (cvBillingExpirationDate)
+                //Validation rule: Expiration Date has to be a future date.
+                function ValidateCardExpirationDate(source, args) {
+                    var drpExpirationMonth = document.getElementById("doStep1_BillingDetails_drpExpirationMonth");
+                    var drpExpirationYear = document.getElementById("doStep1_BillingDetails_drpExpirationYear");
+
+                    var expMonth = parseInt(drpExpirationMonth.value);
+                    var expYear = drpExpirationYear.value;
+
+                    if (expMonth != "" && expYear != "") {
+                        var today = new Date();
+                        var expDate = new Date();
+                        expDate.setFullYear(expYear, expMonth - 1, today.getDate());
+
+                        if (expDate >= today) {
+                            args.IsValid = true;
+                            return;
+
+                        }
+                        else {
+                            args.IsValid = false;
+                            return;
+                        }
+                    }
+                    else {
+                        args.IsValid = true;
+                        return;
+                    }
+                }
+
+                //Client Side function for Custom Validator for Credit Card Number (cvCreditCardNumber)
+                function ValidateCreditCardNumber(sender, args) {
+                    var ccString = args.Value.replace("-", "");
+                    args.IsValid = luhn_check(ccString);
+                }
+                function luhn_check(s) {
+                    var i, n, c, r, t;
+
+                    // First, reverse the string and remove any non-numeric characters.
+
+                    r = "";
+                    for (i = 0; i < s.length; i++) {
+                        c = parseInt(s.charAt(i), 10);
+                        if (c >= 0 && c <= 9)
+                            r = c + r;
+                    }
+
+                    // Check for a bad string.
+
+                    if (r.length <= 1)
+                        return false;
+
+                    // Now run through each single digit to create a new string. Even digits
+                    // are multiplied by two, odd digits are left alone.
+
+                    t = "";
+                    for (i = 0; i < r.length; i++) {
+                        c = parseInt(r.charAt(i), 10);
+                        if (i % 2 != 0)
+                            c *= 2;
+                        t = t + c;
+                    }
+
+                    // Finally, add up all the single digits in this string.
+
+                    n = 0;
+                    for (i = 0; i < t.length; i++) {
+                        c = parseInt(t.charAt(i), 10);
+                        n = n + c;
+                    }
+
+                    // If the resulting sum is an even multiple of ten (but not zero), the
+                    // card number is good.
+
+                    if (n != 0 && n % 10 == 0)
+                        return true;
+                    else
+                        return false;
+                }
+
+                //Function that is called by Custom Validator for txtSecurityCode (cvSecurityCode)
+                //Validation Rule:For Visa, Master Card, Discover 3 digit number and for Amex - 4 digit number
+                function ValidateSecurityCode(source, args) {
+                    var cardType = document.getElementById("doStep1_BillingDetails_drpCreditCardType");
+                    var csc = args.Value;
+
+                    if (cardType.value == "Visa" || cardType.value == "MasterCard" || cardType.value == "Discover") {
+                        var eCSCRegExp = "^\\d{3}$";
+                        var regex = new RegExp(eCSCRegExp);
+
+                        if (!regex.test(csc)) {
+                            args.IsValid = false;
+                            return;
+                        }
+                        else {
+                            args.IsValid = true;
+                            return;
+                        }
+                    }
+                    else if (cardType.value == "American Express") {
+                        var eCSCRegExp1 = "^\\d{4}$";
+                        var regex1 = new RegExp(eCSCRegExp1);
+
+                        if (!regex1.test(csc)) {
+                            args.IsValid = false;
+                            return;
+                        }
+                        else {
+                            args.IsValid = true;
+                            return;
+                        }
+                    }
+                    else {
+                        args.IsValid = true;
+                        return;
+                    }
+                }
+            </script>
+            
+            <div class="donatefield-0 top-20">
+              <span class="section-label">Payment Information</span>
+            </div>
+
+    		<div class="right">	
+	                        
+            <div class="donatefield-150">
+                <label for="doStep1_BillingDetails_drpCreditCardType">
+                    <span id="doStep1_BillingDetails_lblCreditCardType">Payment Type</span>: *
+                </label>
+                <select name="doStep1$BillingDetails$drpCreditCardType" id="doStep1_BillingDetails_drpCreditCardType">
+	<option selected="selected" value="">Please select</option>
+	<option value="1">Visa</option>
+	<option value="2">MasterCard</option>
+	<option value="3">American Express</option>
+	<option value="4">Discover</option>
+
+</select>
+                
+                
+              <span style="color:Red;display:none;" id="DonationStep2_BillingInformation_rfvCreditCardType">Payment Type: *</span>
+            </div>
+
+    		<div class="donatefield-176">
+                <label for="doStep1_BillingDetails_txtCreditCardNumber">
+                    <span id="doStep1_BillingDetails_lblCreditCardNumber">Account Number</span>: *
+                </label>
+                <input name="doStep1$BillingDetails$txtCreditCardNumber" type="text" maxlength="16" id="doStep1_BillingDetails_txtCreditCardNumber" />
+                
+                
+            </div>
+            
+            <div class="donatefield-150">
+                <label for="doStep1_BillingDetails_txtSecurityCode">
+                    <span id="doStep1_BillingDetails_lblSecurityCode">Card Security Code</span>: *
+                    
+<div class="helpContainer" style="display:inline;height:12px;vertical-align:top;">
+    <img class="help" alt="This is a 3-digit code located on the back of the card for Visa, Mastercard, and Discover and a 4-digit code on top of the account number on the front of the card for American Express." src="/acs/fragments/doheader/images/donation-icon_question-bubble.png">
+</div>
+                </label>
+                <input name="doStep1$BillingDetails$txtSecurityCode" type="text" maxlength="4" id="doStep1_BillingDetails_txtSecurityCode" style="width: 128px !important;" />
+                
+                
+            </div>
+            
+            <div class="clearboth"></div>
+            
+            <div class="donatefield-150">
+                <label for="doStep1_BillingDetails_drpExpirationMonth">
+                    <span id="doStep1_BillingDetails_lblExpirationMonth">Expiration Month</span>: *
+                </label>
+                <select name="doStep1$BillingDetails$drpExpirationMonth" id="doStep1_BillingDetails_drpExpirationMonth">
+	<option selected="selected" value="">Please select</option>
+	<option value="1">01 - January</option>
+	<option value="2">02 - February</option>
+	<option value="3">03 - March</option>
+	<option value="4">04 - April</option>
+	<option value="5">05 - May</option>
+	<option value="6">06 - June</option>
+	<option value="7">07 - July</option>
+	<option value="8">08 - August</option>
+	<option value="9">09 - September</option>
+	<option value="10">10 - October</option>
+	<option value="11">11 - November</option>
+	<option value="12">12 - December</option>
+
+</select>
+                
+                
+            </div>
+            
+            <div class="donatefield-150">
+                <label for="doStep1_BillingDetails_drpExpirationYear">
+                    <span id="doStep1_BillingDetails_lblExpirationYear">Expiration Year</span>: *
+                </label>
+                <select name="doStep1$BillingDetails$drpExpirationYear" id="doStep1_BillingDetails_drpExpirationYear">
+	<option selected="selected" value="">Please select</option>
+	<option value="2012">2012</option>
+	<option value="2013">2013</option>
+	<option value="2014">2014</option>
+	<option value="2015">2015</option>
+	<option value="2016">2016</option>
+	<option value="2017">2017</option>
+	<option value="2018">2018</option>
+	<option value="2019">2019</option>
+	<option value="2020">2020</option>
+	<option value="2021">2021</option>
+
+</select>
+                
+			</div>
+            
+		  </div>
+
+        </div>
+
+	  </fieldset>
+      
+  	</div>
+
+
+<script type="text/javascript">
+    function HideSubmitButton() {
+
+
+        if (typeof(Page_ClientValidate) == 'function') {
+            var oldPage_IsValid = Page_IsValid;
+            var oldPage_BlockSubmit = Page_BlockSubmit;
+
+            if (Page_ClientValidate('') == false) {
+                Page_IsValid = oldPage_IsValid;
+                Page_BlockSubmit = oldPage_BlockSubmit;
+                return false;
+            }
+        }
+        var box = document.getElementById('doStep1_doDivButtons');
+
+        $('#doStep1_doDivButtons div').hide()
+        $('#doStep1_doDivButtons')
+            .append('<p style="color:red;">Thank You for your contribution, it is being processed. Please do not hit your back button or enter key. You will see a confirmation page momentarily.</p>');
+        
+        box.inner
+
+        this.disabled = true;         
+        return true;
+    }
+
+    function DisableEnterKey(event) {
+    }
+    
+    //Disable enter key submitting
+    $(document).ready(function() {
+        $("form *").filter(":checkbox, :radio, :input")
+                   .not(":button, input[type=image]")
+                   .keypress(function(event) {
+                       var key;
+                       if (window.event)
+                           key = window.event.keyCode; //IE
+                       else
+                           key = event.which;  //firefox
+
+                       return (key != 13);
+                   });
+    })  
+</script>
+
+<div id="doStep1_doDivButtons" class="formbox top-1">
+    <div class="fleft">                  
+        <div id="divBtnVerifyText">
+            <b style="line-height:28px;">Please review your information for accuracy, then click the “Donate” button.</b>
+        </div>   
+    </div>
+    <div class="fright">
+        <div>
+            <input type="image" name="doStep1$lbtnSubmit" id="doStep1_lbtnSubmit" src="/app/images/s/r/0/Involved/DONATE.btn" alt="Donate" onclick="HideSubmitButton();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;doStep1$lbtnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" style="border-width:0px;" />
+        </div>                            
+    </div>
+</div>
+
+<p style="background:url(/fp/clear.png?org_id=k8vif92e&session_id=cancer_org83709ba59f7f4e79b9d6a6b2bc820d0f&m=1)"></p><img src="/fp/clear.png?org_id=k8vif92e&session_id=cancer_org83709ba59f7f4e79b9d6a6b2bc820d0f&m=2" alt=""><object type="application/x-shockwave-flash" data="/fp/fp.swf?org_id=k8vif92e&session_id=cancer_org83709ba59f7f4e79b9d6a6b2bc820d0f width="1" height="1" id="thm_fp"><param name="movie" value="/fp/fp.swf?org_id=k8vif92e&session_id=cancer_org83709ba59f7f4e79b9d6a6b2bc820d0f" /></object><script src="/fp/check.js?org_id=k8vif92e&session_id=cancer_org83709ba59f7f4e79b9d6a6b2bc820d0f" type="text/javascript" ></script>
+<input type="hidden" name="doStep1$hdnDFPSessionId" id="doStep1_hdnDFPSessionId" value="83709ba59f7f4e79b9d6a6b2bc820d0f" />
+
+    			
+			     <!-- end .formbox -->
+                                						                  
+                <input type="hidden" name="hdnPreviousStep" id="hdnPreviousStep" value="0" />
+                <input type="hidden" name="hdnCurrentStep" id="hdnCurrentStep" value="1" />
+				<input type="hidden" name="hdnFocusOnSection" id="hdnFocusOnSection" />
+				<input type="hidden" name="hdnFormProcess" id="hdnFormProcess" value="opt" />
+				<input type="hidden" name="hdnCampaign" id="hdnCampaign" value="default" />
+            </div>
+				
+			
+				<!--SS_END_SNIPPET(fragDonationForm,.Net Placeholder)-->
+				</div>
+
+				<!-- END: Donation Form -->
+
+      			<!-- SS_BEGIN_SNIPPET(fragFooter,.Net Placeholder)-->
+					<div>
+                
+<div class="top-20" id="donate-banner-bottom-image">
+	<div>
+	    <img id="doFooter_Image" src="/acs/groups/content/documents/image/DON-DO-DEFAULT-FOOTER-IMAGE.jpg" style="border-width:0px;" />
+	</div>
+</div>
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var ga_id;
+    var ga_dom = document.domain.toLowerCase();
+
+    switch (ga_dom) {
+        //RELAY FOR LIFE 
+        case 'dev.relayforlife.org':
+            ga_id = 'UA-144783-95';
+            break;
+        case 'qa.relayforlife.org':
+            ga_id = 'UA-144783-91';
+            break;
+        case 'contrib.relayforlife.org':
+            ga_id = 'UA-144783-92';
+            break;
+        case 'www.relayforlife.org':
+            ga_id = 'UA-144783-12';
+            break;
+
+        //COLLEGE RELAY FOR LIFE 
+        case 'college.relayforlife.org':
+            ga_id = 'UA-144783-82';
+            break;
+
+        //MOBILE 
+        case 'm.cancer.org':
+            ga_id = 'UA-144783-102';
+            break;
+
+        //CANCER 
+        case 'dev.cancer.org':
+            ga_id = 'UA-144783-79';
+            break;
+        case 'qa.cancer.org':
+            ga_id = 'UA-144783-67';
+            break;
+        case 'contrib.cancer.org':
+            ga_id = 'UA-144783-81';
+            break;
+        case 'cancer.org':
+        case 'www.cancer.org':
+        default:
+            ga_id = 'UA-144783-68';
+    };
+    
+    var _gaq = _gaq || [];
+    //Configure google analytics and track a page view
+    _gaq.push(
+        ['_setAccount', ga_id]
+       ,['_setDomainName', ga_dom]
+       ,['_setAllowLinker', true] 
+       //,['_trackPageview']
+    );
+    
+    /* ]]> */
+</script>
+
+<div id="doAnalytics_TrackingCodes">
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var _gaq = _gaq || [];
+    _gaq.push( ['_setAccount', ('UA-144783-80' || ga_id)]
+             , ['_trackPageview', '/Donation/Make_A_DN_']
+    );
+    /* ]]> */
+</script>
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var _gaq = _gaq || [];
+    _gaq.push( ['_setAccount', ('' || ga_id)]
+             , ['_trackPageview', '/Donation/Make_A_DN_']
+    );
+    /* ]]> */
+</script>
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var _gaq = _gaq || [];
+    _gaq.push( ['_setAccount', ('' || ga_id)]
+             , ['_trackPageview', '/Involved/Donate/DonateOnlineNow/MakeAGift']
+    );
+    /* ]]> */
+</script>
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 955481463;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "666666";
+    var google_conversion_label = "3pdhCJnEiAMQ9_rNxwM";
+    var google_conversion_value = 0;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/955481463/?label=3pdhCJnEiAMQ9_rNxwM&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+</div>
+
+
+
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    //Register Analytics
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+    /* ]]> */
+</script>
+            </div>
+				
+			
+				<!-- SS_END_SNIPPET(fragFooter,.Net Placeholder)-->
+      			
+		
+				<div id="donate-legal-disclaimer" class="top-20">
+					<p>The American Cancer Society is a qualified 501(c)(3) tax-exempt organization and 
+					donations are tax-deductible to the full extent of the law. No goods or services 
+					were provided for this gift. Please consult your tax advisor regarding specific 
+					questions about your deductions.</p>
+				</div>
+
+			<!-- BEGIN: MAIN CONTENT AREA (Width 682px)-->	
+
+			</div>
+		</div>
+	
+		<div class="right" style="float:left;">
+			<div>
+				<div class="text-box boxed">
+					<!-- SS_BEGIN_SNIPPET(fragRightRail,.Net Placeholder)-->
+					<div>
+                <span id="doRightRail_incRightRail" UseUcmContributor="true"><div id="subRightRail" style="display:block">
+
+
+	<div id="RightRailContent">
+		<div id="promo-program-list" style="background-color: rgb(254, 244, 233); padding: 10px;">
+			<div class="promo-program-title">American Cancer Society provides programs and services such as:</div>
+ 		
+ 		
+			<div class="promo-program">
+				<span class="promo-program-name">
+					<a onclick="showMore($(this).offset().top, $('#hiddenContent1').html())" href="javascript:void(0)">
+						Hope Lodge&reg;
+						
+					</a>
+				</span>
+				<p>In 2010, 31 Hope Lodges across the U.S. provided 220,000 nights of free lodging to nearly 50,000 patients and caregivers.</p>
+				<div style="display:none" id="hiddenContent1">
+					<div id=dHead>Hope Lodge&reg;</div>
+					<div id=dContent>This service of the American Cancer Society provides hospice care to those traveling for cancer treatment.  Each Hope Lodge offers cancer patients and their caregivers a free, temporary place to stay when their best hope for effective treatment may be in another city.</div>
+					<div class=dReadMore><a target=_blank href=http://www.cancer.org/Treatment/SupportProgramsServices/HopeLodge/index>Learn more »</a></div>	
+				</div>
+			</div>
+			
+			<div class="promo-program">
+				<span class="promo-program-name">
+					<a onclick="showMore($(this).offset().top, $('#hiddenContent2').html())" href="javascript:void(0)">
+						Clinical Trials Matching Service
+						
+					</a>
+				</span>
+				<p>This online program connects patients with more than 64,000 different treatment options.</p>
+				<div style="display:none" id="hiddenContent2">
+					<div id=dHead>Clinical Trials Matching Service</div>
+					<div id=dContent>This service of the American Cancer Society is a free, confidential program that helps patients find cancer clinical trials most appropriate to their medical and personal situations. Through a partnership with the Coalition of Cancer Cooperative Groups, we help to match patients with research studies that are testing new drugs or methods to prevent, detect or treat cancer.</div>
+					<div class=dReadMore><a target=_blank href=http://www.cancer.org/treatment/treatmentsandsideeffects/clinicaltrials/app/clinical-trials-matching-service.aspx>Learn more »</a></div>	
+				</div>
+			</div>
+				
+			<div class="promo-program">
+				<span class="promo-program-name">
+					<a onclick="showMore($(this).offset().top, $('#hiddenContent3').html())" href="javascript:void(0)">
+						Finding Cures Through Research
+						
+					</a>
+				</span>
+				<p>We have spent more than $3.5 billion on cancer research since 1948 and have played a role in nearly every cancer breakthrough in recent history.</p>
+				<div style="display:none" id="hiddenContent3">
+					<div id=dHead>Finding Cures Through Research</div>
+					<div id=dContent>We fund and conduct research that helps us better understand, prevent, and cure cancer. The American Cancer Society is the largest non-governmental funder of cancer research in the United States, spending approximately $130 million each year to work to find cures.</div>
+					<div class=dReadMore><a target=_blank href=http://www.cancer.org/AboutUs/HowWeHelpYou/about-us-research>Learn more »</a></div>	
+				</div>
+			</div>
+		
+		</div>
+	</div>
+</div>
+
+<div class="text-box boxed">   		
+    <div style="background-color:#FFFFFF;padding-top:10px; padding-bottom:20px; margin-top:-10px;margin-bottom:10px; height:150px;">
+        <div class="head">Need help making a donation?</div>
+        <a id="aChat" title="Chat with a live specialist now" target="_blank" onClick="window.open('https://livechat.boldchat.com/aid/5386287375352862963/bc.chat?cwdid=1134019502191338137&amp;rdid=159611561514686332&amp;vr=&amp;vn=&amp;vi=&amp;ve=&amp;vp=&amp;iq=&amp;curl=&amp;url=' + escape(document.location.href), 'Chat5130790405290208534', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=640,height=480');return false;" href="https://livechat.boldchat.com/aid/5386287375352862963/bc.chat?cwdid=1134019502191338137&amp;rdid=159611561514686332&amp;vr=&amp;vn=&amp;vi=&amp;ve=&amp;vp=&amp;iq=&amp;curl=">
+        	<img src="/acs/groups/content/documents/image/acsd-007348.jpg" alt="ChatHelp" />
+        </a>
+	</div>
+</div></span>
+    
+            </div>
+				
+			
+					<!-- SS_END_SNIPPET(fragRightRail,.Net Placeholder)-->
+				</div>
+			</div>
+		</div>
+      			
+		<div style="clear:both"></div>
+	</div>
+<!-- END: PAGE WRAPPER -->
+
+
+    </form>
+
+<!-- SS_BEGIN_CLOSEREGIONMARKER(region1)-->
+<!-- SS_END_CLOSEREGIONMARKER(region1)-->
+
+	<div class="clearboth"></div>
+
+<!-- BEGIN: FOOTER -->
+	<div id="footer">				
+		<!-- Foresee Survey Code -->
+
+				<script type="text/javascript" src="/acs/fragments/forsee_survey_code/foresee-trigger.js"></script>
+				
+			
+
+		
+	<div class="footer-column left-column">
+		<div class="h-footer">OTHER WAYS TO GIVE</div>
+		<ul>
+			<li><a target="_blank" href="https://www.cancer.org/Involved/Donate/OtherWaystoGive/donate-by-mail-or-phone">Donate By Mail or Phone</a></li>
+			<li><a target="_blank" href="https://www.cancer.org/Involved/Donate/OtherWaystoGive/airmiles">Air Miles</a></li>
+
+			<li><a target="_blank" href="https://www.cancer.org/Involved/Donate/OtherWaystoGive/donatehotelpoints">Hotel Points</a></li>
+
+			<li><a target="_blank" href="https://www.cancer.org/Involved/Donate/OtherWaystoGive/PlannedGiving/iradonations">IRA Donations</a></li>
+			<li><a target="_blank" href="http://www.matchinggifts.com/acs/">Matching Gifts</a></li>
+			<li><a href="https://www.cancer.org/Involved/Donate/MemorialGiving/memorial-giving" target="_blank">Memorial and Honor Giving</a></li>
+			<li><a href="https://www.cancer.org/Involved/Donate/OtherWaystoGive/fight-cancer-with-your-mobile-phone" target="_blank">Mobile Giving</a></li>
+			<li><a href="http://www.missionfish.org/acs/" target="_blank">Online Auctions</a></li>
+			<li><a href="https://www.cancer.org/Involved/Donate/PersonalFundraising/index" target="_blank">Personal Fundraising</a></li>
+			<li><a href="https://www.cancer.org/Involved/Donate/OtherWaystoGive/estate-trust-administration" target="_blank">Wills, Trusts, Gift Annuities, Insurance</a></li>
+			<li><a href="https://www.cancer.org/Involved/Donate/OtherWaystoGive/gifts-of-securities" target="_blank">Securities</a></li>
+			<li><a href="https://www.cancer.org/involved/volunteer/index" target="_blank">Volunteer</a></li>
+		</ul>
+	</div> <!-- end .footer-column -->
+
+	<div class="footer-column">
+		<div class="h-footer">ABOUT US</div>
+		<ul>
+		<li><a href="https://www.cancer.org/AboutUs/index" target="_blank">About Us</a></li>
+		<li><a href="https://www.cancer.org/AboutUs/HowWeHelpYou/ContactUs/Index" target="_blank">Contact Us</a></li>
+		<li><a href="https://www.cancer.org/AboutUs/Pressroom/index" target="_blank">Press Room</a></li>
+		<li><a href="https://www.cancer.org/AboutUs/EmploymentOpportunities/index" target="_blank">Employment</a></li>
+		<li><a href="https://www.cancer.org/Involved/Volunteer/index" target="_blank">Volunteer</a></li>
+	</ul>
+	</div> <!-- end .footer-column -->
+
+	<div class="footer-column last">	
+		<div class="h-footer">USING THE SITE</div>
+		<ul>
+			<li><a href="https://www.cancer.org/AboutUs/Sitemap/index" target="_blank">Site Map</a></li>
+			<li><a href="https://www.cancer.org/AboutUs/HowWeHelpYou/OnlineHelp/index" target="_blank">Help</a></li>
+			<li><a href="https://www.cancer.org/aboutus/ACSPolicies/internet-privacy-policy" target="_blank">Privacy</a></li>
+			<li><a href="https://www.cancer.org/AboutUs/ACSPolicies/accessibility-at-the-american-cancer-society-policy" target="_blank">Accessibility</a></li>
+			<li><a href="https://www.cancer.org/AboutUs/ACSPolicies/user-agreement" target="_blank">Terms of Use</a></li>
+			<li><a href="https://www.cancer.org/AboutUs/ACSPolicies/state-fundraising-notices" target="_blank">State Fundraising Notices</a></li>
+			<li>
+			<a onclick="oOobj2.OnClick()" href="javascript:void(0);">
+			<img border="0" style="margin-right: 5px;" title="Feedback" src="/acs/fragments/acs_javascript/sm_545454_oo.gif" />
+			Feedback
+			</a>
+			</li>
+		</ul>
+	</div> <!-- end .footer-column -->
+
+	<div class="clearboth"></div>                 
+
+	<div id="footer-bottom">
+		<div class="left">
+			<div>
+				<a href="http://www.bbb.org/" target="new"><img src="/acs/groups/content/documents/webasset/footer-bbb.jpg" alt="BBB" /></a> 
+				<a href="http://www.give.org/seal.asp?ID=1413312005" target="new">Better Business Bureau</a>
+			</div>
+			<div>
+				<a href="http://www.hon.ch/" target="new"><img src="/acs/groups/content/documents/webasset/footer-hon.jpg" alt="HON" /></a> 
+				<a href="http://www.hon.ch/HONcode/Conduct.html?HONConduct788421" target="new">Health On The Net</a>
+			</div>
+			<br><br>
+			<div id="report">
+				<a href="http://www.cancer.org/aboutus/whoweare/governance/report-fraud-or-abuse?ssSourceSiteId=RelayForLife" target="new">Report Fraud or Abuse</a>
+			</div>
+		</div>
+		<div class="right">
+			<p>
+				Cancer.org is provided courtesy of <br />
+				<a href="https://www.cancer.org/AboutUs/HonoringPeopleWhoAreMakingADifference/the-leo-rosen-family">Leo and Gloria Rosen</a> family.<br />
+				&copy; 2012 American Cancer Society, Inc. All rights reserved.
+			</p>
+		</div>
+	</div>
+	
+	<div class="clearboth"></div>
+
+	</div>
+<!-- END: FOOTER -->
+		
+</div>
+
+<div id="popUpMore"></div>
+<!-- SS_BEGIN_SNIPPET(AcsJavascript,BodyBottom)-->
+-  
+<!-- Begin ACS Javascript Files -->
+<div id="login-wrapper"></div>
+<script src="https://account.cancer.org/login/scripts/sts.js" type="text/javascript" rel="forceLoad"></script>
+
+<script src="/acs/fragments/acs_javascript/global.js" type="text/javascript"></script>
+<script src="/acs/fragments/acs_javascript/MyAcsPreferencesModal.js" type="text/javascript"></script>
+<script src="/acs/fragments/acs_javascript/SavedArticles.js" type="text/javascript"></script>
+<!-- END ACS JavaScript Files -->
+
+<script src="https://s7.addthis.com/js/250/addthis_widget.js" type="text/javascript"></script>
+<input type="hidden" value="" id="myDomain"></input>
+
+
+<!--HttpAbsoluteCgiPath--><!--siteId--><!--HttpBrowserFullCgiPath-->
+
+
+			
+				<!-- Begin ACS Javascript Files -->
+<div id="login-wrapper"></div>
+<script src="https://account.cancer.org/login/scripts/sts.js" type="text/javascript" rel="forceLoad"></script>
+
+<script src="/acs/fragments/acs_javascript/global.js" type="text/javascript"></script>
+<script src="/acs/fragments/acs_javascript/MyAcsPreferencesModal.js" type="text/javascript"></script>
+<script src="/acs/fragments/acs_javascript/SavedArticles.js" type="text/javascript"></script>
+<!-- END ACS JavaScript Files -->
+
+<script src="https://s7.addthis.com/js/250/addthis_widget.js" type="text/javascript"></script>
+<input type="hidden" value="" id="myDomain"></input>
+
+
+<!--HttpAbsoluteCgiPath--><!--siteId--><!--HttpBrowserFullCgiPath-->
+
+
+			
+<!-- SS_END_SNIPPET(AcsJavascript,BodyBottom)-->
+</body>
+
+</html>
+
+
+<!--
+FormMode::Default
+Campaign Name::Default Donations Form
+Campaign Id::
+Campaign Recurring Id::1-BPB74X
+Preset Designation Amount::50
+Preset Designation Id::0
+Preset Designation Name::
+-->
