@@ -4,7 +4,7 @@
 #include <unicode/utypes.h>
 #include <unicode/ucsdet.h>
 
-char* detectCharset(void *detector, void *input, int input_len, int *status);
+char* detectCharset(void *detector, void *input, int input_len, int *confidence, int *status);
 
 
 #endif //__HELPER_H__
