@@ -1,0 +1,4 @@
+_obj/
+*.o
+*.6
+_cgo_export.h
