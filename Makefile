@@ -1,8 +1,8 @@
 include $(GOROOT)/src/Make.inc
 
-ICU_CONFIG=$(shell which icu-config)
-CGO_LDFLAGS=$(shell $(ICU_CONFIG) --libs)
-CGO_CFLAGS=$(shell $(ICU_CONFIG) --cflags)
+PKG_CONFIG=$(shell which pkg-config)
+CGO_LDFLAGS=$(shell $(PKG_CONFIG) --libs icu-i18n)
+CGO_CFLAGS=$(shell $(PKG_CONFIG) --cflags icu-i18n)
 
 TARG=icu4go
 
