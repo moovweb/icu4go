@@ -1,8 +1,8 @@
 include $(GOROOT)/src/Make.inc
 
-#ONIG_CONFIG=$(shell which onig-config)
-#CGO_LDFLAGS=$(shell $(ONIG_CONFIG) --libs)
-#CGO_CFLAGS=$(shell $(ONIG_CONFIG) --cflags)
+ICU_CONFIG=$(shell which icu-config)
+CGO_LDFLAGS=$(shell $(ICU_CONFIG) --libs)
+CGO_CFLAGS=$(shell $(ICU_CONFIG) --cflags)
 
 TARG=icu4go
 
