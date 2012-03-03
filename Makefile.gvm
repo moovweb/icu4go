@@ -4,6 +4,6 @@ build:
 clean:
 	make clean
 install: build
-	gb -i
+	gb -im
 test:
 	make test
