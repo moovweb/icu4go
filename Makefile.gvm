@@ -1,9 +1,9 @@
 all: install
 build:
-	gb -b
+	gb -bm
 clean:
-	gb -c
+	gb -cm
 install: build
 	gb -i
 test:
-	gb -t
+	gb -tm
