@@ -35,7 +35,7 @@ func TestDetectLatin1(t *testing.T) {
 	detector.Free()
 }
 
-func TestDetectCp1252(t *testing.T) {
+func _TestDetectCp1252(t *testing.T) {
 	data, err := ioutil.ReadFile("input_cp1252.html")
 	if err != nil {
 		t.Errorf("error: %s", err.String())
