@@ -4,8 +4,10 @@ package icu4go
 //
 // #include "helper.h"
 import "C"
-import "unsafe"
-import "os"
+import (
+	"errors"
+	"unsafe"
+)
 
 type CharsetDetector struct {
 	Ptr *C.UCharsetDetector
@@ -14,9 +16,9 @@ type CharsetDetector struct {
 const EmptyEncoding = ""
 const U_ZERO_ERROR = 0
 
-var ERR_CREATE_DETECTPR = os.NewError("cannot create charset detector")
+var ERR_CREATE_DETECTPR = errors.New("cannot create charset detector")
 
-func NewCharsetDetector() (detector *CharsetDetector, err os.Error) {
+func NewCharsetDetector() (detector *CharsetDetector, err error) {
 	detector = &CharsetDetector{}
 	var status int
 	statusPtr := unsafe.Pointer(&status)
