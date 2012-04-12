@@ -1,6 +1,6 @@
 all: install
 build:
-	gb -b -v
+	gb -b
 clean:
 	gb -c
 install: build
