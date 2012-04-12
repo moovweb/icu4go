@@ -6,4 +6,4 @@ clean:
 install: build
 	gb -i
 test:
-	gb -t
+	go test -v
