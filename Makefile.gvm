@@ -1,9 +1,9 @@
 all: install
 build:
-	make
+	gb -b
 clean:
-	make clean
+	gb -c
 install: build
 	gb -i
 test:
-	make test
+	gb -t
