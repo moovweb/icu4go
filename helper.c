@@ -3,7 +3,7 @@
 #include <unicode/utypes.h>
 #include <unicode/ucsdet.h>
 
-char* detectCharset(void *detector, void *input, int input_len, int *status) {
+const char* detectCharset(void *detector, void *input, int input_len, int *status) {
 	const UCharsetMatch *bestGuess;
 	const char *bestGuessedCharset = NULL;
 	ucsdet_setText((UCharsetDetector*)detector, (char*)input, input_len, status);
