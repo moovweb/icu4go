@@ -1,7 +1,7 @@
 package icu4go
 
-// #cgo pkg-config: icu-i18n
-//
+// #cgo CFLAGS: -I../../clibs/include
+// #cgo LDFLAGS: -licui18n -L../../clibs/lib
 // #include "helper.h"
 import "C"
 import (
