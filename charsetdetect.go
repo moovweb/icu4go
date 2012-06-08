@@ -1,7 +1,9 @@
 package icu4go
 
 // #cgo CFLAGS: -I../../clibs/include
-// #cgo LDFLAGS: -licui18n -L../../clibs/lib
+// #cgo linux LDFLAGS: -licui18n -L../../clibs/lib
+// #cgo darwin LDFLAGS: -licui18n -L../../clibs/lib
+// #cgo windows LDFLAGS: -licuin -L../../clibs/lib
 // #include "helper.h"
 import "C"
 import (
