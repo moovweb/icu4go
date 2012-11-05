@@ -4,19 +4,19 @@ import "testing"
 import "io/ioutil"
 
 func _TestDetectChinese(t *testing.T) {
- data, err := ioutil.ReadFile("input_cn.html")
- if err != nil {
-   t.Errorf("error: %s", err.Error())
- }
- detector, err := NewCharsetDetector()
- if err != nil {
-   t.Errorf("error: %s", err.Error())
- }
- charset := detector.GuessCharset(data)
- if charset != "GB18030" {
-   t.Errorf("the charset guess was wrong")
- }
- detector.Free()
+	data, err := ioutil.ReadFile("input_cn.html")
+	if err != nil {
+		t.Errorf("error: %s", err.Error())
+	}
+	detector, err := NewCharsetDetector()
+	if err != nil {
+		t.Errorf("error: %s", err.Error())
+	}
+	charset := detector.GuessCharset(data)
+	if charset != "GB18030" {
+		t.Errorf("the charset guess was wrong")
+	}
+	detector.Free()
 }
 
 func TestDetectLatin1(t *testing.T) {
