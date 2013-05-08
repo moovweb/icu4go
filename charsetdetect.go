@@ -17,13 +17,13 @@ type CharsetDetector struct {
 }
 
 const EmptyEncoding = ""
-const U_ZERO_ERROR = 0
+const U_ZERO_ERROR = int32(0)
 
 var ERR_CREATE_DETECTPR = errors.New("cannot create charset detector")
 
 func NewCharsetDetector() (detector *CharsetDetector, err error) {
 	detector = &CharsetDetector{}
-	var status int
+	var status int32
 	statusPtr := unsafe.Pointer(&status)
 	detector.Ptr = C.ucsdet_open((*C.UErrorCode)(statusPtr))
 	if status != U_ZERO_ERROR {
@@ -38,7 +38,7 @@ func (detector *CharsetDetector) GuessCharset(input []byte) (bestGuess string) {
 		return EmptyEncoding
 	}
 	inputPtr := unsafe.Pointer(&input[0])
-	var status int
+	var status int32
 	statusPtr := unsafe.Pointer(&status)
 	detectorPtr := unsafe.Pointer(detector.Ptr)
 
