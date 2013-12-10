@@ -26,7 +26,7 @@ func NewCharsetDetector() (detector *CharsetDetector, err error) {
 	var status int32
 	statusPtr := unsafe.Pointer(&status)
 	detector.Ptr = C.ucsdet_open((*C.UErrorCode)(statusPtr))
-	if status != U_ZERO_ERROR {
+	if status != U_ZERO_ERROR || detector.Ptr == nil {
 		err = ERR_CREATE_DETECTPR
 	}
 	return
