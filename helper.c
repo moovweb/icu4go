@@ -14,6 +14,9 @@ const char* detectCharset(void *detector, void *input, int input_len, int *statu
 	if (*status != U_ZERO_ERROR) {
 		return NULL;
 	}
+	if (bestGuess == 0) {
+		return NULL;
+	}
 	bestGuessedCharset = ucsdet_getName(bestGuess, status);
 	if (*status != U_ZERO_ERROR) {
 		return NULL;
