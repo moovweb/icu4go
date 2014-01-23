@@ -85,3 +85,17 @@ func TestDetectUtf8(t *testing.T) {
 	}
 	detector.Free()
 }
+
+func TestDetectError(t *testing.T) {
+	data := []byte{0,128}
+	detector, err := NewCharsetDetector()
+	if err != nil {
+		t.Errorf("error: %s", err.Error())
+	}
+	charset := detector.GuessCharset(data)
+	if charset != "" {
+		println(charset)
+		t.Errorf("the charset guess was wrong")
+	}
+	detector.Free()
+}
