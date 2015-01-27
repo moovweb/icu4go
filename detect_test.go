@@ -87,7 +87,7 @@ func TestDetectUtf8(t *testing.T) {
 }
 
 func TestDetectError(t *testing.T) {
-	data := []byte{0,128}
+	data := []byte{0, 128}
 	detector, err := NewCharsetDetector()
 	if err != nil {
 		t.Errorf("error: %s", err.Error())
